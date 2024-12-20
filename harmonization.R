@@ -12,5 +12,3 @@ mao <- read.csv(file.path(filedir, "MaoL_2021_metadata.tsv"),
                 sep = "\t")
 nishiwaki <- read_xlsx(file.path(filedir, "NishiwakiH_2024_rawMetadata.xlsx"),
                                  sheet = "Sheet2")
-payami_ngrc <- read.csv(file.path(filedir, "ngrc_metadata.txt"), sep = "\t")
-payami_uab <- read.csv(file.path(filedir, "uab515_metadata.txt"), sep = "\t")

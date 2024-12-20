@@ -1,6 +1,6 @@
 library(readxl)
 
-filedir <- "/home/kaelyn/Desktop/Work/ASAP_MAC/harmonization/original_metadata"
+filedir <- "../original_metadata"
 
 boktor <- read_xlsx(file.path(filedir, "mds29300-sup-0017-tables10.xlsx"),
                     sheet = "metadata")

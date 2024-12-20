@@ -1,8 +1,8 @@
 library(dplyr)
 library(readxl)
 
-filedir <- "./original_metadata"
-outdir <- "./curated_metadata"
+filedir <- "../original_metadata"
+outdir <- "../curated_metadata"
 boktor <- read_xlsx(file.path(filedir, "mds29300-sup-0017-tables10.xlsx"),
                     sheet = "metadata")
 

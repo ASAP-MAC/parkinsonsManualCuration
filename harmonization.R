@@ -12,3 +12,5 @@ mao <- read.csv(file.path(filedir, "MaoL_2021_metadata.tsv"),
                 sep = "\t")
 nishiwaki <- read_xlsx(file.path(filedir, "NishiwakiH_2024_rawMetadata.xlsx"),
                                  sheet = "Sheet2")
+nishiwaki_info <- read_xlsx(file.path(filedir, "columnNamesExplained.xlsx"),
+                            sheet = "Sheet1")

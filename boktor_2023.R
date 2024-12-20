@@ -1,7 +1,8 @@
 library(dplyr)
 library(readxl)
 
-filedir <- "/home/kaelyn/Desktop/Work/ASAP_MAC/harmonization/original_metadata"
+filedir <- "./original_metadata"
+outdir <- "./curated_metadata"
 boktor <- read_xlsx(file.path(filedir, "mds29300-sup-0017-tables10.xlsx"),
                     sheet = "metadata")
 
@@ -25,8 +26,6 @@ boktor <- boktor %>%
             control == "External Comparison Group" ~ "NCIT:C71546"
         )
     )
-#boktor$pmid
-#boktor$ncbi_accession
 
 # Category: Personal
 boktor <- boktor %>%
@@ -76,7 +75,7 @@ boktor <- boktor %>%
 
 # Select and save curated columns
 curated_boktor <- boktor %>%
-    mutate(curation_id = paste(study_name, subject_id, sep = ":"))
+    mutate(curation_id = paste(study_name, subject_id, sep = ":")) %>%
     select(
         curation_id,
         study_name,
@@ -97,3 +96,5 @@ curated_boktor <- boktor %>%
         disease_ontology_term_id,
         curator
     )
+
+write.csv(curated_boktor, file = file.path(outdir, "boktor_2023_curated_metadata.csv"), row.names = FALSE)

@@ -1,0 +1,16 @@
+library(readxl)
+
+filedir <- "/home/kaelyn/Desktop/Work/ASAP_MAC/harmonization/original_metadata"
+
+boktor <- read_xlsx(file.path(filedir, "mds29300-sup-0017-tables10.xlsx"),
+                    sheet = "metadata")
+wallen <- read_xlsx(file.path(filedir, "Source_Data_24Oct2022.xlsx"),
+                    sheet = "subject_metadata")
+bedarf <- read.csv(file.path(filedir, "BedarfJR_2017_metadata_newgrammar.tsv"),
+                   sep = "\t")
+mao <- read.csv(file.path(filedir, "MaoL_2021_metadata.tsv"),
+                sep = "\t")
+nishiwaki <- read_xlsx(file.path(filedir, "NishiwakiH_2024_rawMetadata.xlsx"),
+                                 sheet = "Sheet2")
+payami_ngrc <- read.csv(file.path(filedir, "ngrc_metadata.txt"), sep = "\t")
+payami_uab <- read.csv(file.path(filedir, "uab515_metadata.txt"), sep = "\t")

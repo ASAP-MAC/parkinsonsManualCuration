@@ -1,0 +1,488 @@
+sample_name	Study	Location	Case_status	Sex	Hispanic_or_Latino	Race	Jewish_ancestry	Age_at_collection	Day_of_stool_collection_abdominal_pain	Day_of_stool_collection_bloating	Day_of_stool_collection_diarrhea	Day_of_stool_collection_excess_gas	Day_of_stool_collection_constipation	Day_of_stool_collection_digestion_issue	Bristol_stool_chart	BMI	Loss_10lbs_in_last_year	Gained_10lbs_in_last_year	Do_you_smoke	Do_you_drink_caffeinated_beverages	Do_you_drink_alcohol	How_often_do_you_eat_GRAINS	How_often_do_you_eat_POULTRY_BEEF_PORK_SEAFOOD_EGGS	How_often_do_you_eat_FRUITS_or_VEGETABLES	How_often_do_you_eat_NUTS	How_often_do_you_eat_YOGURT	Constipation	Diarrhea	IBS	IBD	SIBO	Ulcer_past_3_months	Celiac_disease	Crohns_disease	Colitis	GI_cancer_past_3_months	Intestinal_disease	Antibiotics_current	Antibiotics_past_3_months	Laxatives	Indigestion_drugs	Anti_inflammatory_drugs	Radiation_Chemo	Blood_thinners	Cholesterol_med	Blood_pressure_med	Thyroid_med	Asthma_or_COPD_med	Diabetes_med	Pain_med	Depression_anxiety_mood_med	Birth_control_or_estrogen	Antihistamines	Probiotic	Co_Q_10	Sleep_aid	stool_travel_time	collection_method	total_sequences
+SC0001	UAB515	Birmingham_AL	Control	F	N	White		50	N	N	N	N	N	N		23.17016602	N	Y	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		3	swab	38114539
+SC0002	UAB515	Birmingham_AL	Control	M	N	White		76	N	N	N	N	N	N		26.35727038	N	N	Y	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		3	swab	33640669
+SC0005	UAB515	Birmingham_AL	Control	F	N	White		74	N	N	N	N	N	N		27.97583008	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																			swab	37163359
+SC0006	UAB515	Birmingham_AL	Control	M	N	White		64	N	N	N	N	N	N		28.18890622	Y	Y	N	Y	N						N		N	N	N	N	N	N	N	N	N	N	N																		4	swab	12922958
+SC0007	UAB515	Birmingham_AL	Control	F	N	White		61	N	N	N	N	N	N		32.27731864	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		2	swab	29164980
+SC0008	UAB515	Birmingham_AL	Control	M	N	White		67	N	N	N	N	Y	Y		33.19952774	N	N	N	N	N						Y	Y	N	N	N	N	N	N	Y	N	Y	N	N																		6	swab	29284382
+SC0009	UAB515	Birmingham_AL	Control	F	N	White		71	N	N	Y	Y	N	Y		19.01977107	Y	N	N	Y	Y						N	Y	Y	N	N	N	N	N	N	N	Y	N	N																		2	swab	35652306
+SC0011F45	UAB515	Birmingham_AL	Control	F	N	White		70	N	N	N	N	N	N		37.11891644	N	N	N	Y	Y						N	Y	Y	N	N	N	N	N	N	N	Y	N	N																		2	swab	32785417
+SC0014F45	UAB515	Birmingham_AL	Control	F	N	White		70	N	N	N	N	N	N		20.42407227	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		2	swab	28879927
+SC0015F46	UAB515	Birmingham_AL	Control	F	N	White		69	N	N	N	N	N	N		29.17724609	N	N	N	Y	Y						N	Y	N	N	N	N	N	N	N	N	N	N	N																		2	swab	30508048
+SC0016F52	UAB515	Birmingham_AL	Control	F	N	White		63	N	N	N	N	N	N		29.95029586	N	N	N	N	Y						N	N	N	N	N	N	N	N	N	N	N	N	Y																		2	swab	36851552
+SC0017F56	UAB515	Birmingham_AL	Control	F	N	White		59	N	N	N	N	N	N		31.75170898	N	Y	N	Y	Y						Y	Y	N	N	N	N	N	N	N	N	N	N	N																		0	swab	30068638
+SC0018F50	UAB515	Birmingham_AL	Control	F	N	White		65	N	N	N	N	N	N		32.76769967	N	N	N	Y	N						N	Y	N	N	N	N	N	N	N	N	N	N	N																		1	swab	40602815
+SC0019F50	UAB515	Birmingham_AL	Control	F	N	White		65	N	N	N	N	N	N		33.46801758	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	Y																		2	swab	21094973
+SC0020F43	UAB515	Birmingham_AL	Control	F	N	White		73	N	N	N	N	N	N		23.75968766	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	Y	Y																		3	swab	34170582
+SC0021M36	UAB515	Birmingham_AL	Control	M	N	White		80	N	N	N	N	Y	Y		34.4531076	N	N	N	Y	N						Y	N	N	N	N	N	N	N	Y	N	Y	N	N																		2	swab	29846721
+SC0022F51	UAB515	Birmingham_AL	Control	F	N	White		64	N	N	N	N	N	N		26.46740129	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	Y																		3	swab	37172694
+SC0023F37	UAB515	Birmingham_AL	Control	F	N	White		78	N	N	N	N	N	N		18.53613281	N	N	N	Y	N						N	Y	N	N	N	N	N	N	N	N	N	N	N																		6	swab	30656586
+SC0024F44	UAB515	Birmingham_AL	Control	F	N	White		71								19.41902428	N	N	N	Y	N																																				5	swab	39710010
+SC0025	UAB515	Birmingham_AL	Control	F	N	White		61	N	N	N	N	N	N		23.67244898	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	Y																		5	swab	34775573
+SC0026	UAB515	Birmingham_AL	Control	F	N	White		72	N	N	N	N	N	N		27.89509579	N	Y	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		2	swab	41367199
+SC0028	UAB515	Birmingham_AL	Control	F	N	White	Y	69	N	Y	N	N	Y	Y		27.80419922	N	N	Y	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		4	swab	31150730
+SC0029	UAB515	Birmingham_AL	Control	F	N	White		87	N	N	N	N				27.4609375	N	N	N	Y	N						N	N	N	N	N	N		N	N	N		N	Y																		4	swab	30531907
+SC0030	UAB515	Birmingham_AL	Control	F	N	White		74	N	N	N	N	N	N		36.210718	N	N	N	Y	N						N	Y	N	N	N	N	N	N	N	N	N	N	Y																		2	swab	30398985
+SC0031	UAB515	Birmingham_AL	Control	F	N	White		69	N	N	N	N	N	N		23.38019652	N	N	N	Y	N						Y	Y	N	Y	N	N	N	N	N	N	Y																				3	swab	38365741
+SC0033	UAB515	Birmingham_AL	Control	M	N	White		75	N	N	N	N	N	N		29.67926906	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		5	swab	28726011
+SC0034	UAB515	Birmingham_AL	Control	F	N	White		73	N	N	N	N	N	N		36.57648283	N	N	N	Y	N						N	Y	N	N	N	N	N	N	N	N	N	N	N																		6	swab	30807936
+SC0035	UAB515	Birmingham_AL	Control	F	N	White		61	N	N	N	N	N	N		22.7314025	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		6	swab	28511860
+SC0036	UAB515	Birmingham_AL	Control	F	N	White		66	N	N	N	N	N	N		22.86030177	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		6	swab	38164591
+SC0037	UAB515	Birmingham_AL	Control	M	N	White		66	N	N	N	N	N	N		31.74648183	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		5	swab	27669019
+SC0038	UAB515	Birmingham_AL	Control	M	N	White		77	N	N	N	N				27.97653061	N	N	N	N	Y						N	N	N	N	N	N	N	N	N	N	N	N	Y																		7	swab	30356051
+SC0039	UAB515	Birmingham_AL	Control	F	N	White		66	N	N	N	N	N	N		18.65102041	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		7	swab	31216932
+SC0040	UAB515	Birmingham_AL	Control	M	N	White		55	N	N	N	N	N	N		29.14639952	N	N	N	N	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		10	swab	24879523
+SC0042	UAB515	Birmingham_AL	Control	F	N	White		71	N	N	N	N	N	N		21.79811958	N	N	N	N	N						N	N	N	N	N	N	N	N	Y	N	Y	N	N																		4	swab	23560578
+SC0044	UAB515	Birmingham_AL	Control	F	N	White		77	N	Y	N	N	N	Y		26.3625	N	N	N	N	N						Y	Y	N	N	N	N	N	N	N	N	N	N	N																		4	swab	22606083
+SC0047	UAB515	Birmingham_AL	Control	F	N	White		72	N	N	N	N	N	N		22.31165453	N	N	N	Y	Y						Y	Y	N	N	N	N	N	N	N	N	N	N	Y																		2	swab	31103659
+SC0049	UAB515	Birmingham_AL	Control	F	N	White		62	N	Y	N	N	N	Y					N	Y	N						Y	Y																													7	swab	32531035
+SC0050	UAB515	Birmingham_AL	Control	F	N	White		53	Y	Y	N	N	N	Y		33.44723183	N	Y	N	Y	N						N	Y	N	N	N	N	N	N	N	N	N	N	N																		3	swab	37232964
+SC0051	UAB515	Birmingham_AL	Control	F	N	White		62	N	N	N	Y	N	Y		42.50944822	Y	N	N	Y	Y						N	N	N	Y	N	N	N	N	Y	N	Y	N	N																		3	swab	29938902
+SC0052	UAB515	Birmingham_AL	Control	F	N	White		65	Y				Y	Y		24.02832031	N	N	N	N	N						Y	Y	Y		N	N	N	N	N	N	Y	Y	Y																		3	swab	35673010
+SC0055	UAB515	Birmingham_AL	Control	F	N	White		61	N	N	N	N	N	N		29.17724609	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		8	swab	33158492
+SC0056	UAB515	Birmingham_AL	Control	M	N	White		79	N	N	N	N	N	N		31.27632653	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		2	swab	23107466
+SC0057	UAB515	Birmingham_AL	Control	F	N	White		68	N	N	N	N	N	N		35.87084961	N	N	N	Y	Y						N	Y	N	N	N	N	N	N	Y	N	Y	N	N																		3	swab	32415070
+SC0058	UAB515	Birmingham_AL	Control	F	N	White		64	N	N	N	N	N	N		22.59412305	N	N	N	Y	Y						Y	Y	N	N	N	N	N	N	N	N	N	N	N																		6	swab	43996544
+SC0059	UAB515	Birmingham_AL	Control	F	N	White		57	N	N	N	N	N	N		27.43572084	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	Y																		5	swab	36348309
+SC0060	UAB515	Birmingham_AL	Control	F	N	White		73	N	N	N	N	N	N		29.22524565	N	Y	N	N	N						Y	N	N	N	N	N	N	N	Y	N	Y	N	N																		3	swab	33335611
+SC0061	UAB515	Birmingham_AL	Control	F	N	American Indian/Alaskan Native		61	N	N	N	N	N	N		35.32948132	N	N	N	Y	Y						N	Y	N	N	N	N	N	N	N	N	N	Y	N																		3	swab	38935376
+SC0063	UAB515	Birmingham_AL	Control	M	N	White		67	N	N	N	N	N	N		26.54183673	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	Y																		4	swab	36624071
+SC0064	UAB515	Birmingham_AL	Control	F	N	White		56	N	N	N	N	N	N		32.27731864	N	N	N	Y	N						N	Y	Y	N	N	N	N	N	N	N	Y	N	N																		2	swab	37230263
+SC0066	UAB515	Birmingham_AL	Control	M	N	White		63	N	N	N	N	N	N		21.92470483	N	N	Y	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		5	swab	32623989
+SC0067	UAB515	Birmingham_AL	Control	F	N	White		74	N	N	N	N	N	N		24.78135813	N	N	N	Y	Y						Y	Y	N	N	N	N	N	N	N	N	N	N	N																		2	swab	41145861
+SC0068	UAB515	Birmingham_AL	Control	M	N	White		65	N	N	N	N	N	N		26.77631579	N	N	N	Y	Y						Y	N	N	N	N	N	N	N	N	N	N	N	N																		17	swab	39013365
+SC0069	UAB515	Birmingham_AL	Control	F	N	White		67	N	N	N	N	N	N		26.29332372	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		2	swab	34044990
+SC0071	UAB515	Birmingham_AL	Control	M	N	White		66	N	N	N	N	N	N		25.08542388	N	N	N	N	Y						N	N	N	N	N	N	N	N	Y	N	Y	N	N																		5	swab	49351910
+SC0072	UAB515	Birmingham_AL	Control	F	N	White		57	N	N	N	N	N	N		31.17604689	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		7	swab	43809189
+SC0074	UAB515	Birmingham_AL	Control	M	N	White		80			Y	Y		Y		34.14864865	N	N	N	Y	N						Y	Y	N	N	N	N	N	N	N	N	N	N	N																		6	swab	41634726
+SC0075	UAB515	Birmingham_AL	Control	F	N	White		56	N	N	N	N	N	N		23.91156463	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		8	swab	29737418
+SC0076	UAB515	Birmingham_AL	Control	F	N	White		69	N	N	N	N				27.45443787	N	Y	N	Y	N						N	Y	N	N	N	N	N	N	N	N	N	N	N																		6	swab	33295646
+SC0078	UAB515	Birmingham_AL	Control	F	N	White		70	N	N	N	N	N	N		25.08542388	Y	N	N	N	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		5	swab	19368390
+SC0079	UAB515	Birmingham_AL	Control	F	N	White		75	N	N	N	N	N	N		22.14033762	N	N	Y	Y	Y						N	N	N	N		N	N	N	N	N		N	N																		6	swab	28034659
+SC0080	UAB515	Birmingham_AL	Control	F	N	White		51	N	N	N	N	N	N		25.23777315	N	Y	N	Y	Y						N	Y	N	N	N	N	N	N	N	N	N	N	N																		8	swab	28954735
+SC0083	UAB515	Birmingham_AL	Control	M	N	White		65								27.99342105	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	Y	N																		8	swab	27806748
+SC0086	UAB515	Birmingham_AL	Control	F	N	White		64	N	N	N	N	N	N		18.07529844	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		8	swab	33092125
+SC0088	UAB515	Birmingham_AL	Control	F	N	White		71	N	N	N	N	N	N		25.84558824	N	N	N	N	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		4	swab	31566466
+SC0089	UAB515	Birmingham_AL	Control	M	N	White		64	N	N	N	N	N	N					N	Y							N	N																													7	swab	30192878
+SC0092	UAB515	Birmingham_AL	Control	M	N	White		61								21.69753086	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		4	swab	29106209
+SC0093	UAB515	Birmingham_AL	Control	F	N	White		70	N	N	N	N	N	N		24.74359546	N	N	N	N	Y						N	Y	N	N	N	N	N	N	N	N	N	N	N																		2	swab	53780401
+SC0094	UAB515	Birmingham_AL	Control	M	N	White		73	N	N	N	N	N	N		25.6599881	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		3	swab	33905249
+SC0095	UAB515	Birmingham_AL	Control	F	N	White		64	N	N	N	N	N	N		29.26118626	N	N	N	Y	N						Y	Y	N	N	N	N	N	N	Y	N	Y	N	N																		9	swab	33857764
+SC0097	UAB515	Birmingham_AL	Control	F	N	White		76	N	N	N	N	N	N		29.04958678	N	Y	N	N	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		10	swab	42989218
+SC0098	UAB515	Birmingham_AL	Control	F	N	White		65	N	N	N	N	N	N					N	Y	Y							Y																													5	swab	38089268
+SC0099	UAB515	Birmingham_AL	Control	F	N	White		68	N	N	N	N	N	N		29.40236835	N	Y	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	Y																		3	swab	39581862
+SC0101	UAB515	Birmingham_AL	Control	F	N	White		59	N	N	N	N	N	N		26.56840514	N	N	N	Y	N						N	Y	N	N	N	N	N	N	N	N	N	N	N																		2	swab	32803581
+SC0102	UAB515	Birmingham_AL	Control	F	N	White		74	N	N	N	N	N	N		24.50410842	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	Y																		5	swab	34206139
+SC0103	UAB515	Birmingham_AL	Control	M	N	White		55	N	Y	N	N	N	Y		29.34234429	Y	N	N	Y	N							Y	N	N	N	N	N	N	N	N	N	N	Y																		6	swab	33576763
+SC0105	UAB515	Birmingham_AL	Control	F	N	White		76	N	N	N	N	N	N		24.29301775	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		4	swab	36958677
+SC0107	UAB515	Birmingham_AL	Control	F	N	White		75	N	N	N	N	N	N		26.03703704	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		9	swab	36972235
+SC0109	UAB515	Birmingham_AL	Control	M	N	White		85	N	N	N	N	N	N		27.86541147	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		4	swab	43928617
+SC0110	UAB515	Birmingham_AL	Control	F	N	White		77	N	N	N	N	N	N		29.04958678	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		6	swab	36249953
+SC0111	UAB515	Birmingham_AL	Control	F	N	White		70	N	N	N	N	N	N		24.58699042	N	N	N	Y	Y						N	Y	N	N	N	N	N	N	N	N	N	N	N																		7	swab	33199241
+SC0114	UAB515	Birmingham_AL	Control	F	N	White		84	N	N		N	N			30.31408426	N	N	N	Y	Y						N	Y	N	N	N	N	N	N	N	N	N	N	N																		2	swab	27786195
+SC0117	UAB515	Birmingham_AL	Control	F		White		62	N	N	N	N	N	N		26.25952148	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		5	swab	32950331
+SC0118	UAB515	Birmingham_AL	Control	F	N	White		62	N	N	N	N	Y	Y		23.32484568	N	N	N	Y	Y							N	N	N	N	N	N	N	N	N	N	N	N																		5	swab	47674714
+SC0119	UAB515	Birmingham_AL	Control	F	N	White		83	N	N	N	N	N	N		37.93041992	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		5	swab	36823704
+SC0120	UAB515	Birmingham_AL	Control	F	N	White		54	N	N	N	N	N	N		37.30801249	Y	Y	N	Y	N						N	Y	N	N	N	Y	N	N	N	N	Y	Y	N																		8	swab	43953062
+SC0121	UAB515	Birmingham_AL	Control	F	N	White		72	N	N	N	N	N	N		28.12	Y	N	N	Y	N						N	Y	N	N	N	N	N	N	N	N	N	N	N																		1	swab	51530293
+SC0123	UAB515	Birmingham_AL	Control	F	N	White		53	N	N	N	N	N	N		23.17016602	N	N	N	Y	Y						N	Y	Y	N	N	N	N	N	N	N	Y	N	N																		8	swab	30214822
+SC0126	UAB515	Birmingham_AL	Control	F	N	White		64	N	N	N	N	N	N		36.47337006	N	Y	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		7	swab	45168516
+SC0128	UAB515	Birmingham_AL	Control	F	N	White		71	N	N	N	N	N	N		26.69887627	N	N	N	Y	Y						Y	N	N	N	N	N	N	N	N	N	N	N	Y																		3	swab	59132430
+SC0136	UAB515	Birmingham_AL	Control	F	N	White		56	N	N	N	N	N	N		23.38019652	N	Y	N	Y	Y						N	Y	N	N	N	N	N	N	N	N	N	N	Y																		4	swab	35702961
+SC0137	UAB515	Birmingham_AL	Control	F	N	White		61	N	N	N	N	N	N		18.19287109	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		2	swab	27385258
+SC0138	UAB515	Birmingham_AL	Control	M	N	White	N	62	N	N	N	N	N	N		26.44386574	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N																			8	swab	48126443
+SC0139	UAB515	Birmingham_AL	Control	M	N	White	N	60	N	N	N	N	N	N		21.80734694	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		8	swab	49064679
+SC0141	UAB515	Birmingham_AL	Control	F		White	N	69	N	N	N	N	N	N		30.89355469	N	N	N	Y	N						N	N	N	N	N	N	N	N	Y	N	Y	N	N																		5	swab	45965279
+SC0143	UAB515	Birmingham_AL	Control	M	N	White	N	80	N	N	N	N	N	N		28.20679012	N	N	N	Y	Y						N	N	N	N	N	N	N	N	Y	N	Y	N	N																		3	swab	33239099
+SC0144	UAB515	Birmingham_AL	Control	M	N	White	N	66	N	N	N	N				31.19020062	N	Y	N	Y	Y						N	N	N	N	N	N	N	N	Y	N	Y	N	N																		4	swab	36459902
+SC0145	UAB515	Birmingham_AL	Control	M	N	White	N	59	N	N	N	N	N	N		27.47292204	N	N	N	Y	Y						Y	N	N	Y	N	N	N	N	Y	N	Y	N	N																		9	swab	29673413
+SC0147	UAB515	Birmingham_AL	Control	F	N	White	N	57	N	N	N	N	N	N		22.27134986	N	N	Y	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		3	swab	39849098
+SC0148	UAB515	Birmingham_AL	Control	F	N	White	Y	74	N	N	N	N	N	N		22.2793525	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		0	swab	46592234
+SC0149	UAB515	Birmingham_AL	Control	M	N	White	N	65	N	N	N	N	N	N		32.97992119	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		3	swab	30545620
+SC0150	UAB515	Birmingham_AL	Control	F	N	White	N	59	N	N	N	Y	N	Y		29.95029586	N	N	N	Y	Y						N	Y	N	N	N	N	N	N	N	N	N	N	N																		1	swab	33872305
+SC0151	UAB515	Birmingham_AL	Control	F	N	White	N	58	N	N	N	N	N	N		20.98025712	Y	N	N	Y	Y						Y	Y	Y	N	N	Y	N	N	N	N	Y	N	N																		3	swab	23837666
+SC0183	UAB515	Birmingham_AL	Control	F	N	White	N	64	N	N	N	N	N	N		37.11539318	Y	Y	N	Y	Y						N	N	Y	N	N	N	N	N	N	N	Y	N	Y																		4	swab	32320940
+SC0248	UAB515	Birmingham_AL	Control	F	N	White	N	54	N	N	N	N	N	N		30.40657439	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		1	swab	38280491
+SC0249	UAB515	Birmingham_AL	Control	M	N	White	N	54	N	N	N	N	N	N		21.69753086	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		1	swab	30163924
+SC0259	UAB515	Birmingham_AL	Control	F	N	White	N	71	N	N	N	N	N	N		25.8398307	N	N	N	N	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		8	swab	44248516
+SC0303	UAB515	Birmingham_AL	Control	F	N	White	Y	60	N	N	N	N	N	N		34.38189386	Y	N	N	N	Y						Y	N	N	N	N	N	N	N	N	N	N	N	N																		12	swab	47429943
+SC0463	UAB515	Birmingham_AL	Control	M	N	White	N	64	N	N	N	N	N	N		25.62044444	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N			N	N																		4	swab	50719190
+SC0469	UAB515	Birmingham_AL	Control	M	N	White		62	N	N	Y	N	N	Y		32.77226741	N	N	N	Y	Y						N	Y	N	N	N	N	N	N	N	N	N	N	N																		6	swab	32297865
+SC0497	UAB515	Birmingham_AL	Control	F	N	White	N	60	N	N	N	N	N	N		31.40844727	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		3	swab	53900107
+SC0527	UAB515	Birmingham_AL	Control	F	N	White	N	68	N	N	N	N	N	N		22.12108851	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		6	swab	39977864
+SC0529	UAB515	Birmingham_AL	Control	F	N	White	N	68	N	N	N	N	N	N		32.76769967	Y	N	N	Y	Y						Y	N	N	N	N	N	N	N	N	N	N	N	N																		6	swab	41369265
+SC0530	UAB515	Birmingham_AL	Control	M	N	White	N	61	N	N	N	N	N	N		29.19031142	N	N	N	Y	Y						N	Y	N	N	N	N	N	N	N	N	N	N	Y																		7	swab	49590194
+SC0531	UAB515	Birmingham_AL	Control	M	N	White	N	85	N	N	N	N	N	N		25.05680552	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		8	swab	49540109
+SC0534	UAB515	Birmingham_AL	Control	F	N	White	N	55	N	N	N	N	N	N		22.86030177	N	N	N	Y	Y						Y	Y	N	N	N	N	N	N	N	N	N	N																			6	swab	38964515
+SC0535	UAB515	Birmingham_AL	Control	F	N	White	N	50	N	N	N	N	N	N		41.96051423	Y	N	N	Y	Y						Y	N	N	N	N	N	N	N	N	N	N	N	N																		7	swab	36352729
+SC0536	UAB515	Birmingham_AL	Control	M	N	White	N	53	N	N	N	N	N	N		32.99795918	N	Y	N	Y	Y						N	Y	N	N	N	N	N	N	Y	N	Y	N	N																		1	swab	32681712
+SC0537	UAB515	Birmingham_AL	Control	F	N	White	N	53	N	N	N	N	N	N		28.33963215	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		1	swab	30069367
+SC0538	UAB515	Birmingham_AL	Control	M	N	White	N	54	N	N	N	N	N	N		22.59168242	N	N	N	N	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		6	swab	40766246
+SC0541	UAB515	Birmingham_AL	Control	F	N	White	N	54	N	Y	N	N	N	Y		23.02595112	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		7	swab	39521557
+SC0542	UAB515	Birmingham_AL	Control	F	N	White	N	60	N	N	N	N	N	N		25.91625977	N	N	N	Y	Y						N	Y	N	N	N	N	N	N	N	N	N	N	N																		10	swab	34341289
+SC0544	UAB515	Birmingham_AL	Control	F	N	White	N	62	N	N	N	N	N	N		23.77471384	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		5	swab	16922489
+SC0545	UAB515	Birmingham_AL	Control	M	N	White	N	71	N	N	N	N	Y	Y		26.21781393	N	N	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		5	swab	30399475
+SC0546	UAB515	Birmingham_AL	Control	M	N	White	N	59	N	N	N	N	N	N		30.68042055	N	N	Y	Y	N						N	N	N	N	N	N	N	N	Y	N	Y	N	Y																		6	swab	29926875
+SC0548	UAB515	Birmingham_AL	Control	M	N	White	N	73	N	N	N	N	N	N		24.40487998	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N																			7	swab	58201398
+SC0553	UAB515	Birmingham_AL	Control	F	N	White	N	64	N	N	N	N	N	N		37.78554152	N	N	N	Y	N						N	Y	N	N	N	N	N	N	N	N	N	N	N																		4	swab	44087120
+SC0554	UAB515	Birmingham_AL	Control	M	N	White	N	44	N	N	N	N	N	N		37.24805363	Y	N	N	Y	Y						N	Y	N	N	N	N	N	N	N	N	N	N	N																		6	swab	40593450
+SC0555	UAB515	Birmingham_AL	Control	F	N	White	N	75	N	N	N	N	N	N			N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		12	swab	26535612
+SC0556	UAB515	Birmingham_AL	Control	M	N	White	N	65	N	N	N	N	N	N		31.56326531	N	N	N	Y	Y						N	Y	N	N	N	N	N	N	N	N	N	N	Y																		6	swab	33946044
+SC0557	UAB515	Birmingham_AL	Control	F	N	White	N	54	N	N	N	N	N	N		24.95857988	N	N	N	Y	N						N	N	N	N	N	N	N	N	Y	N	Y	N	N																		6	swab	27558613
+SC0561	UAB515	Birmingham_AL	Control	M	N	White	N	70	N	N	Y	N	N	Y		23.74577778	N	N	N	Y	N						N	Y	Y	N	N	N	N	N	N	N	Y	N	N																		4	swab	18831641
+SC0562	UAB515	Birmingham_AL	Control	M	N	White	N	63	N	N	N	N	N	N		27.04353537	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		5	swab	24561493
+SC0564	UAB515	Birmingham_AL	Control	M	N	White	N	58	N	N	N	N	N	N		26.54183673	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	Y																		5	swab	36808309
+SC0566	UAB515	Birmingham_AL	Control	M	N	White	N	59	N	N	N	N	N	N		20.67647059	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		6	swab	45852839
+SC0569	UAB515	Birmingham_AL	Control	F	N	White	N	69	N	N	N	Y	N	Y		22.46272189	Y	N	Y	Y	Y						N	N	N	N	N	N	N	N	Y	N	Y	N	N																		7	swab	28771073
+SC0572	UAB515	Birmingham_AL	Control	M	N	White	N	57	N	N	N	N	N	N		26.62285587	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	Y																		5	swab	30329857
+SC0574	UAB515	Birmingham_AL	Control	F	N	White	N	63	N	N	N	Y	N	Y		26.15218522	N	N	N	Y	Y						Y	N	Y	N	N	N	N	N	N	N	Y	N	N																		8	swab	20022869
+SC0575	UAB515	Birmingham_AL	Control	F	N	White	N	70	N	N	N	N	N	N		17.3813491	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		7	swab	37144102
+SC0576	UAB515	Birmingham_AL	Control	M	N	White	N	68	N	N	N	N	N	N		27.19400913	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		10	swab	33780269
+SC0579	UAB515	Birmingham_AL	Control	F	N	White	N	61	N	N	N	N	N	N		23.8691609	N	N	Y	Y	N						N	N	N	N	N	N	N	N	Y	N	Y	N	N																		3	swab	36183009
+SC0580	UAB515	Birmingham_AL	Control	M	N	White	N	77	N	N	N	N	N	N		19.36836735	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N																			4	swab	53933039
+SC0583	UAB515	Birmingham_AL	Control	F	N	White	N	74	N	N	N	N	N	N		26.51795005	N	N	N	Y	N						N	N	N	N	N	N	N	N	Y	N	Y	N																			7	swab	29482661
+SC0585	UAB515	Birmingham_AL	Control	F	N	White	N	76	N	N	N	N	N	N		25.50524053	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		5	swab	32298666
+SC0586	UAB515	Birmingham_AL	Control	F	N	White	N	63	N	N	N	N	N	N		25.38611111	N	Y	N	N	N						N	N	N	N	N	N	N	N	N	N	N	N																			2	swab	37425678
+SC0588	UAB515	Birmingham_AL	Control	F	N	White	N	83	N	N	N	N	N	N		20.05816187	N	N	N	Y	Y						N				N	N		N	N	N		N	N																		6	swab	33475525
+SC0589	UAB515	Birmingham_AL	Control	F	N	White	N	68	N	Y	N	N	N	Y		21.7680998	N	N	N	Y	N						Y	Y	Y	N	N	N	N	N	Y	Y	Y	N	N																		3	swab	33959623
+SC0590	UAB515	Birmingham_AL	Control	F	N	White	N	77	N	N	N	N	N	N		30.55029297	N	N									N	N	N	N	N	N	N	N	N	N	N	N	Y																		7	swab	38454620
+SC0591	UAB515	Birmingham_AL	Control	F	N	White	N	51	N	Y	N	N	N	Y		19.96686391	N	N	N	N	N						N	N	N	N		N	N	N	N	N		N																			5	swab	40507713
+SC0595	UAB515	Birmingham_AL	Control	F	N	White	N	71	N	N	N	N	Y	Y		26.95156107	N	N	N	Y	N						N	Y		N	N	N	N	N	N	N		N	N																		8	swab	28293760
+SC0596	UAB515	Birmingham_AL	Control	F	N	White	N	68	N	N	N	N	N	N		24.36937557	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		3	swab	32068960
+SC0597	UAB515	Birmingham_AL	Control	F	N	White	N	63	N	N	N	N	N	N		38.16025087	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		3	swab	61720619
+SC0598	UAB515	Birmingham_AL	Control	F	N	White	N	77	N	N	N	N	N	N		27.45401864	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		3	swab	28526054
+SC0599	UAB515	Birmingham_AL	Control	M	N	White	Y	81	N	N	N	N	N	N		27.43572084	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	Y																		6	swab	45813450
+SC0600	UAB515	Birmingham_AL	Control	F	N	White	Y	80	N	N	N	N	N	N		33.28459938	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		6	swab	44843096
+SC0605	UAB515	Birmingham_AL	Control	F	N	White	N	57	N	N	N	N	N	N		24.32336108	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		5	swab	43581268
+SC0607	UAB515	Birmingham_AL	Control	F	N	White	N	69	N	N	N	N	N	N		27.45401864	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		3	swab	55210249
+SC0609	UAB515	Birmingham_AL	Control	F	N	White	N	73	N	N	N	N	N	N		32.41345427	N	N	Y	Y	N						N	N	N	N	N	N	N	N	Y	N	Y	N	Y																		3	swab	35905795
+SC0610	UAB515	Birmingham_AL	Control	F	N	White	N	60	N	N	N	N	N	N		41.19140625	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		9	swab	79780694
+SC0613	UAB515	Birmingham_AL	Control	F	N	White	N	62	N	N	N	N	N	N		29.17724609	N	N	N	N	N						N	N	N	N	N	Y	N	N	N	N	Y	N	N																		5	swab	63851166
+SC0614	UAB515	Birmingham_AL	Control	F	N	White	N	70	N	N	N	N	N	N		25.82185491	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		3	swab	19011407
+SC0615	UAB515	Birmingham_AL	Control	M	N	White	N	77	N	N	N	N	N	N		21.01948302	N	N	Y	Y	Y						Y	N	N	N	N	N	N	N	N	N	N	Y	Y																		3	swab	19322768
+SC0617	UAB515	Birmingham_AL	Control	M	N	White	N	53	N	N	N	N	N	N		29.2677551	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		7	swab	13089931
+SC0618	UAB515	Birmingham_AL	Control	M	N	White	N	84	N	N	N	N	N	N		20.52443772	N	N	N	N	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		6	swab	32591149
+SC0619	UAB515	Birmingham_AL	Control	M	N	White	N	68	N	N	N	N	N	N		39.04780797	N	N	N	Y	Y						N	N	N	N	N	N	N	N	Y	N	Y	N	N																		4	swab	27264265
+SC0620	UAB515	Birmingham_AL	Control	M	N	White	N	69	N	N	N	N	N	N		35.93653549	N	N	N	N	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		2	swab	27292975
+SC0621	UAB515	Birmingham_AL	Control	F	N	White	N	57		Y		Y	N	Y		20.17332415	N	Y	N	Y	N						N	N	Y	N	N	N	N	N	N	N	Y	N	N																		5	swab	41293731
+SC0622	UAB515	Birmingham_AL	Control	F	N	White	N	78	N	N	N	N	N	N		28.71253902	Y	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		6	swab	26757678
+SC0623	UAB515	Birmingham_AL	Control	F	N	White	N	57	N	N	N	N	N	N		21.78719008	N	N	N	Y	Y						N	Y	N	N	N	N	N	N	N	N	N	N	N																		2	swab	17388315
+SC0624	UAB515	Birmingham_AL	Control	M	N	White	N	79	N	N	N	N	N	N		20.65959184	Y		N	Y	Y						Y	N	N	Y		N	N	N	Y	N	Y	N																			2	swab	48933309
+SC0628	UAB515	Birmingham_AL	Control	F	N	White	N	63	N	N	N	N	N	N		42.37527778	N	N	Y	Y	Y						N	Y	N	N	N	Y	N	N	N	N	Y	N	Y																		5	swab	43514312
+SC0629	UAB515	Birmingham_AL	Control	F	N	White	N	70	N	N	N	N	N	N		28.33963215	Y	Y	Y	Y	Y						Y	N	Y	N	N	N	N	N	N	N	Y	N	N																		7	swab	44715125
+SC0630	UAB515	Birmingham_AL	Control	F	N	White	N	65	N	N	N	N	N	N		23.17016602	N	N	N	Y	Y						N	N	Y	N	N	N	N	N	N	N	Y	N	Y																		7	swab	35937348
+SC0631	UAB515	Birmingham_AL	Control	M	N	White	N	82	N	N	N	N	Y	Y		36.25867883	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		7	swab	35507833
+SC0632	UAB515	Birmingham_AL	Control	M	N	White	N	67	N	N	N	N	N	N		40.28871107	N	N	Y	Y	N						N	N	N	N	N	N	N	N	N	N	N	Y																			5	swab	45919156
+SC0633	UAB515	Birmingham_AL	Control	M	N	White	N	60	N	N	N	N	N	N		37.30204082	Y	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		6	swab	22706459
+SC0634	UAB515	Birmingham_AL	Control	F	N	White	N	63	N	N	N	N	N	N		48.25325444	Y		N	Y	Y						N	Y	N	N	N	N		N	N	N		N	Y																		5	swab	47504133
+SC0635	UAB515	Birmingham_AL	Control	F	N	White	N	72	N	N	N	N	N	N		29.95029586	Y	N	N	Y	N						Y	Y	N	N	N	N	N	N	N	N	N	N	N																		4	swab	36503398
+SC0636	UAB515	Birmingham_AL	Control	F	N	White	N	76	N	N	N	N	N	N		42.79448491	N	N	N	Y							N	N	N	N	N	N	N	N	N	N	N	N	Y																		10	swab	38635171
+SP0001	UAB515	Birmingham_AL	PD	M	N	White		55	N	N	N	N	N	N		28.88624567	N	N	N	N	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		2	swab	35956996
+SP0004	UAB515	Birmingham_AL	PD	F	N	White		71	N	N	N	N	N	N		22.31165453	Y	N	N	N	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		2	swab	34881543
+SP0005	UAB515	Birmingham_AL	PD	M	N	White		49	N	Y				Y		28.47800926	N	N	N	N	Y						Y	Y																													4	swab	32578440
+SP0006	UAB515	Birmingham_AL	PD	M	N	White		72	N	N	N	N	N	N		35.72772491	N	N	N	Y	Y						Y	N	N	N	N	N	N	N	N	N	N	N	N																		1	swab	45747224
+SP0009	UAB515	Birmingham_AL	PD	F	N	White		60	N	N	N	N	N	N		29.28325194	N	N	N	Y	N						N	Y	N	N	N	N	N	N	N	N	N	N	N																		4	swab	29822991
+SP0012	UAB515	Birmingham_AL	PD	F	N	White		60	N	Y	N	Y	N	Y		34.38561703	Y	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		3	swab	34404730
+SP0013	UAB515	Birmingham_AL	PD	M		White		64	N	N	N	N	N	N		26.7027027	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		2	swab	37434953
+SP0014	UAB515	Birmingham_AL	PD	F	N	White		68	Y	Y	Y	N	N	Y		33.65331318	N	N	N	N	N						N	Y	N	N	N	N	N	N	Y	N	Y	N	N																		6	swab	33581014
+SP0017	UAB515	Birmingham_AL	PD	M	N	White		68	Y	N	N	Y	N	Y		32.88705725	N	N	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		3	swab	35740164
+SP0018	UAB515	Birmingham_AL	PD	M	N	White		83	N	N	N	Y	Y	Y		25.27993056	N	N	N	N	Y						N	Y	N	N	N	N	N	N	N	N	N	N	N																		2	swab	54036468
+SP0021M44	UAB515	Birmingham_AL	PD	M	N	White		72	N	N	N	N	N	N		27.11294766	Y	N	N	N	Y						N	N	N	N	N	N	N	N	N	N	N	N	Y																		2	swab	49447404
+SP0022M52	UAB515	Birmingham_AL	PD	M	N	White		63	N	N	N	N	N	N		38.73673469	N	Y	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		3	swab	39956856
+SP0023F57	UAB515	Birmingham_AL	PD	F	N	White		58	Y	N	N	N	N	Y		24.02832031	N	Y	N	Y	Y						Y	Y	Y	N	N	N	N	N	N	N	Y	N	N																		1	swab	36677529
+SP0027F46	UAB515	Birmingham_AL	PD	F	N	White		69	Y	Y	N	N	Y	Y		20.40419242	N	N	N	N	N						Y		N	N	N	N	N	N	Y	N	Y	N	N																		1	swab	38545158
+SP0028F60	UAB515	Birmingham_AL	PD	F	N	Black or African American		55	N	N	N	Y	Y	Y		30.3813767	Y	N	N	Y	Y						N	Y	N	N	N	N	N	N	N	N	N	N	Y																		3	swab	69615791
+SP0029M44	UAB515	Birmingham_AL	PD	M	N	White		71	N	N	N	N	Y	Y		31.95454545	Y	N	N	Y	Y						Y	N	N	N	N	N	N	N	Y	N	Y	N	N																		3	swab	10908251
+SP0030M37	UAB515	Birmingham_AL	PD	M	N	White		78	N	N	Y	N	N	Y		29.00561523	Y	N	N	Y	Y						Y	N	N	N	N	N	N	N	N	N	N	N	Y																		3	swab	38028025
+SP0031M43	UAB515	Birmingham_AL	PD	M	N	White		72	N	N	N	N	N	N		27.43572084	N	N	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		3	swab	28410665
+SP0033F47	UAB515	Birmingham_AL	PD	F	N	White		68	N	N	N	N	N	N		26.70676692	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		2	swab	38456098
+SP0034M64	UAB515	Birmingham_AL	PD	M	N	White		51	N	N			N			36.58469388	N	Y	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	Y																		2	swab	27639677
+SP0035F51	UAB515	Birmingham_AL	PD	F	N	White		64	N	Y	N	N	Y	Y		29.42690058	N	Y	N	N	N						Y	Y	Y	N	N	Y	N	N	N	N	Y	N	Y																		2	swab	32252022
+SP0036M47	UAB515	Birmingham_AL	PD	M	N	White		68	Y	Y	Y	Y	N	Y		24.77702703	Y	N	N	N	N						Y	Y	Y	N	N	N	N	N	N	N	Y	N	N																		1	swab	38357931
+SP0037M59	UAB515	Birmingham_AL	PD	M	N	White		56	N	N	N	N	Y	Y		24.61083447	N	N	N	N	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		2	swab	40447806
+SP0038M47	UAB515	Birmingham_AL	PD	M	N	White		68	N	N	N	N	N	N		21.82432432	N	Y	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		2	swab	43251993
+SP0039M42	UAB515	Birmingham_AL	PD	M	N	White		74	Y	Y	N	Y	N	Y		26.82877551	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		2	swab	31728799
+SP0040M42	UAB515	Birmingham_AL	PD	M	N	White		73	N	N	N	N	N	N		24.09868421	N	N	N	Y	Y						Y	N	N	N	N	N	N	N	N	N	N	N	N																		0	swab	43497955
+SP0041F37	UAB515	Birmingham_AL	PD	F	N	White		78									N	Y	N	N	N								N	N	N	N	N	N	N	N	N	N	N																		2	swab	35065380
+SP0043F37	UAB515	Birmingham_AL	PD	F	N	White		78	N	N	N	N	N	N		17.19242139	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		4	swab	30304011
+SP0044M58	UAB515	Birmingham_AL	PD	M	N	White		57		Y			Y	Y		23.48174931	N	Y	Y	Y	Y						Y	N	N	N	N	N	N	N	N	N	N																				1	swab	39391746
+SP0046M57	UAB515	Birmingham_AL	PD	M	N	White		58	N	N	N	N	N	N		29.70273125	Y	N	N	Y	Y						N	N	N	N	N	N	N	N	Y	N	Y	N	N																		3	swab	35447824
+SP0047M47	UAB515	Birmingham_AL	PD	M	N	White		68	N	N	N	N	N	N		23.7075977	N	N	N	Y	Y						N	Y	N	N	N	N	N	N	N	N	N	N	N																		4	swab	29001362
+SP0048M45	UAB515	Birmingham_AL	PD	M	N	White		71	N	N	N	N	N	N		23.7075977	Y	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		1	swab	33136365
+SP0049M35	UAB515	Birmingham_AL	PD	M	N	White		80								24.66898105	N	N	N	Y	N									N	N	N	N	N	N	N																					6	swab	30713958
+SP0050M41	UAB515	Birmingham_AL	PD	M		White		75	N	N	N	N	N	N		30.68042055	N		N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	Y																		5	swab	40905002
+SP0051	UAB515	Birmingham_AL	PD	M	N	White		66	N	N	N	N	Y	Y		29.83410494	Y	N	N	Y	Y						Y	N	N	N	N	N	N	N	N	N	N	N	N																		5	swab	39683521
+SP0053	UAB515	Birmingham_AL	PD	M	N	White		64	N	N	N	N	Y	Y		28.87769573	Y	N	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		3	swab	34171150
+SP0055	UAB515	Birmingham_AL	PD	M	N	White		72	N	N	N	N	N	N		26.75778547	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		2	swab	31696115
+SP0057	UAB515	Birmingham_AL	PD	M	N	White		63								34.58043981	N	N	N	Y	Y						N	N	N		N	N	N	N	N	N		N	Y																		6	swab	29076029
+SP0058	UAB515	Birmingham_AL	PD	M	N	White		76	N	N	N	N	N	N		24.12126379	N	Y	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		4	swab	23455803
+SP0059	UAB515	Birmingham_AL	PD	M	N	White		87	N	N	N	N				31.32100691	N	N	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	Y																		4	swab	45691394
+SP0062	UAB515	Birmingham_AL	PD	F	N	White		66	N	N	N	N	N	N		25.01492195	N	N	Y	Y	Y						N	Y	N	N	N	N	N	N	N	N	N	N	N																		2	swab	28115711
+SP0063	UAB515	Birmingham_AL	PD	M	N	White		75	N	N	N	N	Y	Y		31.23824638	N	N	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		5	swab	46998696
+SP0064	UAB515	Birmingham_AL	PD	M	N	White		65	N	N	N	N	N	N		23.14403292	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		3	swab	48320763
+SP0066	UAB515	Birmingham_AL	PD	M	N	White		62	N	N	N	N	N	N		25.84015963	Y	N	N	Y	N						Y	Y	N	N	N	N	N	N	N	N	N	N	N																		6	swab	32533580
+SP0067	UAB515	Birmingham_AL	PD	M	N	White		63	N	N	N	N	N	N		25.84015963	N	N	N	N	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		2	swab	19114460
+SP0068	UAB515	Birmingham_AL	PD	F	N	White		77	N	N	N	N	N	N		27.3945176	Y	N	N	N	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		5	swab	29651238
+SP0069	UAB515	Birmingham_AL	PD	F	N	White		57	N	N	N	N	N	N		28.27348463	Y	N	N	Y	N							Y	N	N	N	N	N	N	N	N	N	N	N																		2	swab	21802070
+SP0070	UAB515	Birmingham_AL	PD	M	N	White		75	N	N	N	N	N	N		28.97193139	Y	N	Y	Y	Y						Y	N	N	N	N	N	N	N	N	N	N	N	Y																		5	swab	37349253
+SP0071	UAB515	Birmingham_AL	PD	F	N	White		75	N	N	N	N	N	N		21.21436004	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	Y	N																		5	swab	37135990
+SP0072	UAB515	Birmingham_AL	PD	M	N	White		78	N	N	N	N	N	N		29.2362949	N	N	N	Y	N						Y		N	N	N	N	N	N	N	N	N	N	N																		2	swab	26509151
+SP0074	UAB515	Birmingham_AL	PD	M	N	White		74	N	N	N	N	N	N		26.31756757	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	Y																		2	swab	31045531
+SP0075	UAB515	Birmingham_AL	PD	M	N	White	Y	69				Y		Y		30.66345271	Y	N	N	N	Y						N	N	N	N	N	N	N	N	Y	N	Y	N	Y																		5	swab	31351515
+SP0076	UAB515	Birmingham_AL	PD	M	N	Black or African American		71	N	N	N	Y	N	Y			N	N	N	Y	Y							Y	Y	N				N	N	N	Y	N	N																		3	swab	36114247
+SP0077	UAB515	Birmingham_AL	PD	M	N	White		69	N	N	N	N	N	N		31.14761249	N	N	N	Y	N						N	Y	N	N	N	N	N	N	N	N	N	N	N																		5	swab	32783081
+SP0078	UAB515	Birmingham_AL	PD	F	N	White		66	N	N	N	N	N	N		20.51525952	N		N	Y	Y						N		N	N	N	N	N	N	N	N	N	N	N																		4	swab	24632061
+SP0080	UAB515	Birmingham_AL	PD	F	N	White		75	N	N	N	N	Y	Y		18.55945822	N	N	N	N	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		3	swab	27655195
+SP0081	UAB515	Birmingham_AL	PD	F	N	White		54	Y	Y	N	Y	N	Y		24.27378035	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		10	swab	36250902
+SP0082	UAB515	Birmingham_AL	PD	F	N	White		75	N	N	N	N	N	N		20.52443772	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		9	swab	47374786
+SP0083	UAB515	Birmingham_AL	PD	M	N	White		72	N	N	Y	Y	N	Y		23.67244898	Y	Y	N	Y	N						Y	Y	N	N	N	N	N	N	N	N	N	N	N																		9	swab	36173817
+SP0085	UAB515	Birmingham_AL	PD	F	N	White		69	N	N	N	N	N	N		26.87302605	N	N	N	N	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		3	swab	34193506
+SP0086	UAB515	Birmingham_AL	PD	M	N	White		73	N	N	N	N	Y	Y		26.1726466	N	N	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		4	swab	33685209
+SP0087	UAB515	Birmingham_AL	PD	F	N	White		71	N	N	N	N	N	N		22.29633136	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	Y	N																		3	swab	28443681
+SP0089	UAB515	Birmingham_AL	PD	M	N	White		78	N	N	N	N				16.24238605	N		Y	Y	N						N	N	N	N	N	N	N		N	N			Y																		11	swab	35399542
+SP0091	UAB515	Birmingham_AL	PD	M	N	White		83	N	N	N	N	N	N		23.74554325	N	N	N	Y	Y						Y	N	N	N	N	N	N	N	N	N	N	N	N																		3	swab	24396307
+SP0093	UAB515	Birmingham_AL	PD	M	N	Black or African American		62	N	N	N	N	N	N		21.76674798	N		N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		6	swab	30969992
+SP0095	UAB515	Birmingham_AL	PD	M	N	White		74	N	N	N	N	N	N		25.49908173			N	Y	N							N	N	N	N	N	N	N	N	N	N	N	N																		2	swab	36626612
+SP0096	UAB515	Birmingham_AL	PD	F	N	White		85	Y	Y		Y	N	Y		24.95857988	N	N	N	N	N						Y	N	Y	N	N	Y	N	N	N	N	Y	N	Y																		5	swab	29715430
+SP0098	UAB515	Birmingham_AL	PD	M	N	White		65	Y	N	N	N	N	Y					N	Y	N						N	Y																													5	swab	41148402
+SP0099	UAB515	Birmingham_AL	PD	M	N	White		56	N	N	N	N	N	N		28.5885737	N	N	N	Y	N						N	N	N	N		N	N	N	N	N		N	N																		5	swab	39644430
+SP0100	UAB515	Birmingham_AL	PD	M	N	White		59	N	N	N	N	N	N		27.12191358	N	N	N	Y	Y						N	Y	N	N	N	N	N	N	N	N	N	N	N																		4	swab	48621170
+SP0101	UAB515	Birmingham_AL	PD	M	N	White		40	N	N	N	N	N	N		20.34143519	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		2	swab	40811840
+SP0102	UAB515	Birmingham_AL	PD	F	N	White		85	N	N	N	Y	Y	Y		31.52784077	Y	N	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	Y	Y																		3	swab	36043047
+SP0106	UAB515	Birmingham_AL	PD	M	N	White		65	N	N	N	N	Y	Y		24.82324936	Y	N	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		4	swab	35239668
+SP0109	UAB515	Birmingham_AL	PD	M	N	White		70	N	N	N	N	N	N		21.69753086	N	N	N	N	Y						N	Y	N	N	N	N	N	N	N	N	N	N	N																		6	swab	45937963
+SP0110	UAB515	Birmingham_AL	PD	M	N	White		66	N	N	N	N	N	N		23.18231464	Y	N	N	Y	Y						Y	N	N	N	N	N	N	N	N	N	N	N	N																		5	swab	34632720
+SP0111	UAB515	Birmingham_AL	PD	F	N	White		82	N	Y	N	Y	N	Y		27.43236212	N	N	Y	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																			swab	31817098
+SP0112	UAB515	Birmingham_AL	PD	F	N	White		58	Y	Y	N	Y	Y	Y		21.14167966	N	N	N	Y	N						Y	N	Y	N	N	N	N	N	N	N	Y	N	N																		4	swab	34473883
+SP0113	UAB515	Birmingham_AL	PD	F	N	White		80	N	N	N	Y	Y	Y		22.12994083	N	N	N	Y	Y						Y	N	N	N	N	N	N	N	N	N	N	N	N																		6	swab	13998694
+SP0114	UAB515	Birmingham_AL	PD	M	N	White		80								29.93721304	Y	N	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		3	swab	55439269
+SP0115	UAB515	Birmingham_AL	PD	M	N	White		66	N	N	N	N	N	N		28.71264021	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		6	swab	42455770
+SP0116	UAB515	Birmingham_AL	PD	M	N	White		76	N	N	Y	Y	Y	Y		26.2831338	N	Y	N	Y	Y						Y	Y	N	N	N	N	N	N	N	N	N	N	N																		6	swab	35622946
+SP0117	UAB515	Birmingham_AL	PD	M	N	White		74	N	N	N	N	N	N		28.23497749	N	N	Y	Y	Y						Y	Y	N	N	N	N	N	N	N	N	N	N	N																		7	swab	38933855
+SP0118	UAB515	Birmingham_AL	PD	M	N	White		67	N	N	N		N			28.12608131	N	N	N	Y	Y						N	N	N	Y	N	N	N	N	N	N	Y	N	N																		7	swab	33036931
+SP0119	UAB515	Birmingham_AL	PD	M	N	White		61	N	N	N	Y	N	Y		27.49511111	N	Y	N	Y	Y						Y	Y	N	N	N	N	N	N	N	N	N	N	N																		9	swab	38878021
+SP0120	UAB515	Birmingham_AL	PD	M	N	White		66	N	N	N	N	N	N		32.49335449	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		4	swab	38515068
+SP0122	UAB515	Birmingham_AL	PD	M	N	White		75	N	N	N	N	N	N		23.05362654	Y	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	Y																		4	swab	34604985
+SP0123	UAB515	Birmingham_AL	PD	M	N	White		66	N	Y	N	Y	N	Y		37.49333333	Y	N	N	Y	N						Y	Y	Y	N	N	N	N	N	N	N	Y	N	N																		3	swab	33414585
+SP0124	UAB515	Birmingham_AL	PD	F	N	White		62	N	N	N	N	N	N		24.29301775	N	Y	N	Y	N						Y	Y	N	N	N	N	N	N	N	N	N	N	N																		7	swab	32381757
+SP0127	UAB515	Birmingham_AL	PD	M	N	White		64	N	N	N	N	N	N		31.4708045	Y	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		7	swab	42894887
+SP0128	UAB515	Birmingham_AL	PD	F	N	White	Y	67	N	N	N	N	N	N		20.36911061	Y	N	N	Y	Y						Y	N	N	N	N	N	N	N	N	N	N	N	N																		8	swab	45371161
+SP0129	UAB515	Birmingham_AL	PD	M	N	White		54	N	N	N	N	N	N		40.66942149	N	N	Y	Y	N						Y	Y	N	Y	N	N	N	N	Y	N	Y	N	Y																		5	swab	35932879
+SP0130	UAB515	Birmingham_AL	PD	F	N	White		73	Y	N	N	Y	Y	Y		35.34527778	N	N	N	N	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		4	swab	43840548
+SP0131	UAB515	Birmingham_AL	PD	M	N	White		58	N	N	N	N	Y	Y		28.05503046	Y	N	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		2	swab	32113769
+SP0132	UAB515	Birmingham_AL	PD	F	N	White		72	N	N	N	N	N	N		37.58520829	N	Y	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		2	swab	30758094
+SP0133	UAB515	Birmingham_AL	PD	F	N	White		65	N	N	N	N	N	N		33.27810651	Y	N	N	Y	N						N	Y				N	N	N	N	N		N	N																		5	swab	33073146
+SP0134	UAB515	Birmingham_AL	PD	F	N	White		60	N	N	N	N	N	N		19.96686391	N	N	N		N						N	Y	N	N		N	N	N	N	N		N	N																		5	swab	33710745
+SP0135	UAB515	Birmingham_AL	PD	F	N	White		63	Y	Y	N	Y	Y	Y		27.36591696	Y	N	N	N	Y						N	Y	N	N	N	N	N	N	N	N	N	N	Y																		6	swab	29037392
+SP0136	UAB515	Birmingham_AL	PD	F	N	White		71	N	Y	N	Y	N	Y		20.72335601	Y	N	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		7	swab	30408544
+SP0137	UAB515	Birmingham_AL	PD	M	N	White		73	N	N	N	N	N	N		22.31303313	N	N	N	Y	N						N	N	N	N	N	N	N	N	Y	N	Y	N	N																		4	swab	31828015
+SP0138	UAB515	Birmingham_AL	PD	M	N	White		84	N	N	N	N	Y	Y		25.84015963	Y	N	N	Y	Y						Y	N	N	N	N	N	N	N	N	N	N	N	N																		2	swab	36503059
+SP0139	UAB515	Birmingham_AL	PD	F	N	White		65	N	N	N	N	Y	Y		24.79717813	N	N	N	Y	Y						Y	Y	Y	Y	N	N	N	N	N	N	Y	N	N																		5	swab	30132888
+SP0140	UAB515	Birmingham_AL	PD	M	N	White		68	N	N	N	N	N	N		21.28460208	N	N	N	Y	Y						Y	N	N	N	N	N	N	N	N	N	N	N	N																		3	swab	35391371
+SP0141	UAB515	Birmingham_AL	PD	F	N	White		53	N	N	N	N	N	N		33.63964844	Y	Y	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		5	swab	30608941
+SP0142	UAB515	Birmingham_AL	PD	F	N	White		55	N	N	N	N	N	N		31.635	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		2	swab	33157121
+SP0144	UAB515	Birmingham_AL	PD	M		White		68	N	N	N	N	N	N		21.37693878	N	N	N	Y	N								N	N	N	N	N	N	Y	N	Y	N	N																		6	swab	23878846
+SP0146	UAB515	Birmingham_AL	PD	M	N	White		75	N	Y	N	N	Y	Y		23.6252888	N	N	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		4	swab	31191832
+SP0147	UAB515	Birmingham_AL	PD	F	N	White		64	N	Y	N	N	N	Y		21.4644169	N	N	N	Y	Y						Y	N	N	N	N	N	N	N	Y	N	Y	N	N																		2	swab	32956897
+SP0148	UAB515	Birmingham_AL	PD	M	N	White		59	N	N	N	N	N	N		23.49075518	N	N	N	Y	N						N	N	N	N	N	N	N	N	Y	N	Y	N	N																		7	swab	43757960
+SP0150	UAB515	Birmingham_AL	PD	F	N	White		75	N	N	N	N	N	N		28.72681359	Y		N	Y	N						N	Y	N	N	N	N	N	N	N	N	N	N	N																		6	swab	30263462
+SP0151	UAB515	Birmingham_AL	PD	M	N	White		69	N	N	N	N	N	N		25.53755102	N	N	N	N	Y						N	Y	N	N	N	N	N	N	N	N	N	N	N																		2	swab	22170673
+SP0152	UAB515	Birmingham_AL	PD	M	N	White		69	N	N	N	N	Y	Y		26.30825617	Y	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		4	swab	32524292
+SP0153	UAB515	Birmingham_AL	PD	M	N	White		63	N	N	N	N	N	N		26.07835747	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		7	swab	32575063
+SP0154	UAB515	Birmingham_AL	PD	F	N	White		74	N	N	N	N	N	N		25.49908173	N	N	N	Y	Y						Y	N	N	N	N	N	N	N	N	N	N	N	N																		2	swab	42428007
+SP0156	UAB515	Birmingham_AL	PD	M	N	White		75	N	N	N	N	Y	Y		34.43265306	N	N	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		6	swab	44247741
+SP0157	UAB515	Birmingham_AL	PD	M	N	White		77	N	N	N	Y	N	Y		26.39836735	N	N	N	Y	Y						Y	N	N	N	N	N	N	N	N	N	N	N	N																		2	swab	45933340
+SP0158	UAB515	Birmingham_AL	PD	F	N	White		75	N	N	N	N	N	N		19.75130073	Y	N	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		7	swab	47912898
+SP0162	UAB515	Birmingham_AL	PD	F		White		62	N	Y	N	N		Y		28.69387755	N	N	N	Y	N						Y	Y	N	N	N	N	N	N	N	N	N	N	N																		8	swab	35378845
+SP0164	UAB515	Birmingham_AL	PD	M	N	White	Y	69	N	N	N	N	N	N		32.60667904	N	Y	N	Y	Y						Y	N	N	N	N	N	N	N	N	N	N	N	N																			swab	53389498
+SP0165	UAB515	Birmingham_AL	PD	M	N	White		66	N	N	N	N	N	N		25.10714286	Y	N	N	Y	N						Y	Y	N	N	N	N	N	N	N	N	N	N	N																		7	swab	37449353
+SP0167	UAB515	Birmingham_AL	PD	M	N	White		74	N	N	N	N	Y	Y		30.9862259	N	N	N	N	N						N		N	N	N	N	N	N	N	N	N	N	N																		7	swab	42662149
+SP0168	UAB515	Birmingham_AL	PD	F	N	White		69	N	N	N	N	N	N		21.53775867	N	N	N	Y	N						N	Y	N	N	N	N	N	N	N	N	N	N	N																		2	swab	52223240
+SP0169	UAB515	Birmingham_AL	PD	F	N	White		72	N	N	N	N	N	N		36.06760223	N	N	N	Y	N						Y	Y	N	N	N	N	N	N	N	N	N	N	N																		3	swab	36530235
+SP0170	UAB515	Birmingham_AL	PD	M	N	White		71								23.32484568	N	N	N	N	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		2	swab	32618314
+SP0171	UAB515	Birmingham_AL	PD	F	N	White		64	N	N	N	N	N	N		30.11085916	N	N	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	Y																		6	swab	37211302
+SP0173	UAB515	Birmingham_AL	PD	M	N			56	N	N	N	N	Y	Y		25.7658179	N	N	N	Y	N						Y	Y	N	N	N	N	N	N	N	N	N	N	N																		5	swab	35828120
+SP0176	UAB515	Birmingham_AL	PD	F	N	White		91	N	N	N	N	N	N		18.28824142	Y	N	N	Y	N						N	Y	N	N	N	N	N	N	N	N	N	N	N																		5	swab	31203806
+SP0177	UAB515	Birmingham_AL	PD	M	N	White		69	N	N	N	N	N	N		26.57844991	N	N	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		9	swab	41416698
+SP0179	UAB515	Birmingham_AL	PD	M	N	White		76	N	N	N	N	N	N		26.11142857	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		3	swab	40641991
+SP0180	UAB515	Birmingham_AL	PD	M	Y	White		68	N	N	N	N	N	N		27.39313272	N	N	N	Y	Y						N	Y	Y	N	N	N	N	N	N	N	Y	N	N																		4	swab	42469118
+SP0181	UAB515	Birmingham_AL	PD	M	N	White		68	N	N	N	Y	N	Y		28.28831548	N	N	N	N	N						Y	N	N	N	N	N	N	N	Y	N	Y	N	N																		9	swab	41659428
+SP0184	UAB515	Birmingham_AL	PD	M	N	White		80	N	N	N	N	N	N		28.31527778	Y	N	N	Y	Y						Y	N	N	N	N	N	N	N	N	N	N	N	N																		10	swab	44459568
+SP0185	UAB515	Birmingham_AL	PD	F	N	White		63	N	N	N	N	N	N		31.47038567	N	Y	N	Y	Y						N	Y	N	N	N	N	N	N	N	N	N	N	N																		10	swab	53559523
+SP0186	UAB515	Birmingham_AL	PD	M	N	White		57	N	N	N	N	N	N		40.43918919	Y	N	N	Y	Y						N	Y	N	Y	N	N	N	N	N	N	Y	N	N																		2	swab	43698880
+SP0187	UAB515	Birmingham_AL	PD	M	N	White		69	N	N	N	N	N	N		29.13202108	N	N	N	Y	Y						N	N	N	N	N	N	N	N	Y	N	Y	N	N																		10	swab	42016588
+SP0188	UAB515	Birmingham_AL	PD	M	N	White		69	N	N	N	N	N	N		24.62932526	N	N	N	N	Y						N	N	N	N		N	N	N	N	N		N	N																		7	swab	31458273
+SP0189	UAB515	Birmingham_AL	PD	F	N	Black or African American		66	N	N	N	N	N	N		37.60307622	N	Y	N	Y	N						N	N	N	N	N	N	N	N	Y	N	Y	N	N																		4	swab	44643721
+SP0190	UAB515	Birmingham_AL	PD	M		White		50	N	N	N	N	N	N		31.26496528	N	N	Y		N						N	N	N	N	N	N	N	N	N	N	N	N	Y																		2	swab	66165171
+SP0192	UAB515	Birmingham_AL	PD	F	N	White		67	N	N	N	N	N	N		33.20026732	Y	N	N	N	N						Y	Y	N	N	N	N	N	N	N	N	N	N	Y																		7	swab	57046241
+SP0193	UAB515	Birmingham_AL	PD	F	N	White		65	Y	Y	Y	Y	N	Y		23.62745562	Y	N	N	Y	N						Y	N										N	N																		6	swab	51362275
+SP0194	UAB515	Birmingham_AL	PD	F	N	White		64	N	N	N	N	N	N		39.76733728	N	N	N	Y	Y						N	Y	N	N	N	N	N	N	Y	N	Y	N	N																		6	swab	46960630
+SP0195	UAB515	Birmingham_AL	PD	M	N	White		75	N	N	N	N	N	N		26.9722449	N	N	N	Y	N						N	N	N	N	N	N	N	N	Y	N	Y	N	Y																		3	swab	35036218
+SP0196	UAB515	Birmingham_AL	PD	M	N	White		68				Y		Y		25.6599881	N	N	N	Y	Y						Y	N	N	N	N	N	N	N	N	N	N	N	N																		4	swab	38081858
+SP0197	UAB515	Birmingham_AL	PD	F	N	White		53	Y	Y	N	N	N	Y		24.56060199	Y	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		5	swab	23833287
+SP0198	UAB515	Birmingham_AL	PD	M	N	White		79	N	N	N	N	N	N		28.72803015	N	N	N	N	N						N	N	N	Y	N	N	N	N	N	N	Y	N	N																		7	swab	31499303
+SP0200	UAB515	Birmingham_AL	PD	M	N	White		86	N	N	N	N	N	N		23.62162162	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		4	swab	46320222
+SP0203	UAB515	Birmingham_AL	PD	M	N	White		76	N	N	N	N	N	N		25.25061224	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		9	swab	45482352
+SP0205	UAB515	Birmingham_AL	PD	F	N	White		85	N	Y	N	N	N	Y		25.60353798	Y	Y	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		4	swab	42872383
+SP0206	UAB515	Birmingham_AL	PD	F	N	White		72	N	N	N	N	N	N		31.88208617	N	Y	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		4	swab	33101815
+SP0207	UAB515	Birmingham_AL	PD	M		White		50	Y	N	N	N	N	Y		24.36357908	N	N	Y	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		6	swab	37556027
+SP0208	UAB515	Birmingham_AL	PD	M	N	White		81									N	N	N	Y	N						Y		N	N	N	N	N	N	N	N	N	N	N																		3	swab	32086795
+SP0209	UAB515	Birmingham_AL	PD	M	N	White		63	N	N	N	N	N	N		32.04179794	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		24	swab	46216914
+SP0210	UAB515	Birmingham_AL	PD	M	N	White		77	N	N	N	N	N	N		23.74554325	N	N	N	Y	Y						Y	N	N	N	N	N	N	N	Y	N	Y	N	N																		5	swab	37630366
+SP0211	UAB515	Birmingham_AL	PD	M	N	White		80	N	N	N	N	N	N		25.10216227	Y	N	N	Y	Y						Y	N	N	N	N	N	N	N	N	N	N	N	N																		7	swab	51449304
+SP0212	UAB515	Birmingham_AL	PD	M	N	White		83	N	N	N	N	N	N		24.20798898	N	N	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		2	swab	33887891
+SP0216	UAB515	Birmingham_AL	PD	F	N	White		69								21.28222656	N	N	N	N	Y						N		N	N								N	N																		5	swab	47065737
+SP0217	UAB515	Birmingham_AL	PD	M	N	White		70	N	N	N	N	N	N		21.11510187	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	Y	Y	N	N																		2	swab	34743358
+SP0218	UAB515	Birmingham_AL	PD	M	N	White		76	N	N	N	N	N	N		24.26542353	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	Y																			5	swab	41388955
+SP0219	UAB515	Birmingham_AL	PD	M	N	White		64	N	N	N	N	N	N		22.85135135	N	N	N	Y	Y						N	N	N		N	N	N	N	N	N		N	N																		3	swab	37152127
+SP0220	UAB515	Birmingham_AL	PD	M	N	White		86	N	N	N	N	N	N		25.8244898	N	N	N	Y	N						Y	N	N	N	N	Y	N	N	N	N	Y	N	N																		7	swab	45523587
+SP0221	UAB515	Birmingham_AL	PD	M	N	White		52	N	N	N	N	N	N		32.953125	N	N	N	Y	N						N	Y	N	N	N	N	N	N	N	N	N	N	N																		5	swab	43104376
+SP0222	UAB515	Birmingham_AL	PD	M	N	White		73	N	N	Y	N	Y	Y		23.67244898	N	N	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																			swab	41452852
+SP0223	UAB515	Birmingham_AL	PD	M	N	White		61	N	N	N	N	N	N		27.49511111	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		3	swab	33607565
+SP0226	UAB515	Birmingham_AL	PD	F	N	White		61	N	N	N	N	N	N		24.62579882	N	N	N	Y	Y						N	Y	N	N	N	N	N	N	N	N	N	N	N																		7	swab	43448075
+SP0228	UAB515	Birmingham_AL	PD	M	N	White		53	N	Y	N	Y	N	Y		28.55040816	Y	Y	N	Y	Y						Y	N	N	N	N	N	N	N	N	N	N	N	N																		5	swab	50988373
+SP0229	UAB515	Birmingham_AL	PD	F	N	White	Y	61					Y	Y		19.4834971	N	N	N	Y	Y						Y	N	N	N	N	N	N	N	Y	N	Y	N	N																		8	swab	23683675
+SP0231	UAB515	Birmingham_AL	PD	F	N	White		42	N	N	N	N	N	N		25.34703443	N	N	N	Y	N						N	Y	N	N	N	N	N	N	N	N	N	N	Y																		3	swab	37944438
+SP0233	UAB515	Birmingham_AL	PD	M	N	White		64	N	N	N	N	N	N		32.86486486	N	Y	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	Y	Y																		7	swab	69915730
+SP0235	UAB515	Birmingham_AL	PD	M	N	White		73	N	N	N	N	N	N		27.25918367	N	N	N	N	Y						N	N	N	N	N	N	N	N	Y	N	Y	N	N																		3	swab	39429539
+SP0236	UAB515	Birmingham_AL	PD	F	N	White		79	N	N	N	N	Y	Y		27.54377742	N	N	N	N	N						N	Y	N	N	N	N	N	N	N	N	N	N	Y																		10	swab	45888848
+SP0237	UAB515	Birmingham_AL	PD	M	N	White		67	N	N	N	N	Y	Y		24.65889519	Y		N	N	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		6	swab	42609182
+SP0240	UAB515	Birmingham_AL	PD	F	N	White		55		N	N	N	Y	Y		33.11171598	N	N	N	Y	N						Y	N	N	N	N	N	N	N	Y	N	Y	N	N																		7	swab	44444132
+SP0247	UAB515	Birmingham_AL	PD	M	N	White		59	N	N	N	Y	N	Y		26.98630401	Y	N	N	Y	N						N	N	N	N	N	N		N	N	N		N	N																		3	swab	34696780
+SP0250	UAB515	Birmingham_AL	PD	F	N	White		70	Y	N	N	N	Y	Y		27.11294766	Y	N	N	N	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		6	swab	42540149
+SP0251	UAB515	Birmingham_AL	PD	M	N	White		77	N	N	N	N	N	N		25.10186936	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		4	swab	32540128
+SP0252	UAB515	Birmingham_AL	PD	M	N	White		56	N	Y	N	N	Y	Y		24.00289352	N	N	N	Y	Y						Y	N	N	N	N	N	N	N	N	N	N	N	N																		3	swab	37511118
+SP0254	UAB515	Birmingham_AL	PD	M	N	White	Y	79	N	N	N	N	N	N		24.75227604	N	N	N	Y	Y						Y	N	N	N	N	N	N	N	Y	N	Y	N	N																		7	swab	37049072
+SP0256	UAB515	Birmingham_AL	PD	M		White	N	70	N	N	N	N	Y	Y		28.88513514	Y	N	N	Y	N						Y	N	N	N	N	N	N	N	Y	N	Y	N	N																		4	swab	38212561
+SP0259	UAB515	Birmingham_AL	PD	F	N	White	N	76	N	N	N	N	N	N		22.48239721	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		3	swab	35629335
+SP0261	UAB515	Birmingham_AL	PD	F	N	White	N	65	Y	Y	N	Y	Y	Y		26.08789063	N	Y	Y	Y	N						Y	N	Y	N	N	N	N	N	Y	N	Y	N	Y																		4	swab	38611002
+SP0262	UAB515	Birmingham_AL	PD	M	N	White		75								31.62283737	N	N	N	Y	N						Y	N	N	N		N	N	N	N	N		N	N																		3	swab	53260319
+SP0266	UAB515	Birmingham_AL	PD	F	N	White	Y	62	N	N	N	N	N	N		23.96761134	N	N	N	N	N						Y	N	N	N	N	N	N	N	N	N	N	N																				swab	29023425
+SP0268	UAB515	Birmingham_AL	PD	M	N	White	N	61	N	N	N	N	N	N		32.57384718	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		10	swab	50618858
+SP0270	UAB515	Birmingham_AL	PD	F	N	White	N	48	N	N	N	N	N	N		22.48239721	Y	N	N	Y	N						N	N	N		N	N	N	N	N	N		N	N																		4	swab	40303193
+SP0272	UAB515	Birmingham_AL	PD	F		White	N	64	N	N	N	N	N	N		31.75170898	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	Y	N																		3	swab	35331725
+SP0274	UAB515	Birmingham_AL	PD	M	N	White	N	60	N	N	N	N	N	N		29.68192907	N	N	N	Y	Y						N	N	N	N	N	N	N	Y	N	N	Y	N	N																		2	swab	38155011
+SP0275	UAB515	Birmingham_AL	PD	M	N	White	N	58	N	N	N	N	N	N		24.8430309	N	N	N	Y	Y						Y	N	N	Y	N	N	N	N	N	N	Y	N	Y																		4	swab	31509450
+SP0277	UAB515	Birmingham_AL	PD	M	N	White	N	68	N	N	N	N	N	N		26.90981834	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		4	swab	29509242
+SP0278	UAB515	Birmingham_AL	PD	M	N	White	N	55																																																	5	swab	30873656
+SP0281	UAB515	Birmingham_AL	PD	F	N	White	N	85	N	N	N	Y	N	Y		21.34883096	N	N	N	N	N						N	Y	N	N	N	N	N	N	N	N	N	N	Y																			swab	43117716
+SP0284	UAB515	Birmingham_AL	PD	F	N	White	N	78	N	N	N	N	N	N		27.45443787	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	Y																		2	swab	37882596
+SP0289	UAB515	Birmingham_AL	PD	M	N	White	N	63	N	N	N	N	N	N		27.25918367	Y		N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	Y																		5	swab	39039051
+SP0297	UAB515	Birmingham_AL	PD	F	N	White	N	77	N	N	N		N			21.47629439	N	Y	N	Y	N						N	Y	N	N	N	N	N	N	Y	N	Y	Y	Y																		6	swab	36822954
+SP0310	UAB515	Birmingham_AL	PD	F	Y	White	N	68	Y	Y	N	N	N	Y		26.56840514	N	N	N	N	N						Y	N	Y	N	N	N	N	N	N	N	Y	N	Y																		8	swab	45451935
+SP0332	UAB515	Birmingham_AL	PD	F	N	White	N	73	N	N	N	N	N	N		27.11767578	N	N	N	Y	N						N	Y	N	N	N	N	N	N	N	N	N	N	N																		6	swab	26846528
+SP0413	UAB515	Birmingham_AL	PD	M	N	White	N	64	N	N	N	N	N	N		30.06816663	Y	N	N	Y	Y						N	Y	N	N	N	N	N	N	N	N	N	N	N																		16	swab	45830109
+SP0430	UAB515	Birmingham_AL	PD	F	Y	White		77	N	N	N	N	N	N		22.86025262	Y	N	N	N	N						N	N	N	Y	N	N	N	N	Y	N	Y	N	N																		16	swab	34087204
+SP0447	UAB515	Birmingham_AL	PD	M	N	White	N	69	N	N	N	N	N	N		28.79332073	N	N	N	Y	N						Y	N	N	N	N	N	N	N	Y	N	Y	N	N																		6	swab	36014054
+SP0517	UAB515	Birmingham_AL	PD	M	N	White	N	76	N	N	Y	Y	Y	Y			N	N	N	Y	N						Y	Y	Y	N	N	N	N	N	N	N	Y	N	N																		2	swab	36238208
+SP0572	UAB515	Birmingham_AL	PD	F	N	White	N	74	N	N	N	N	N	N		23.77294686	N	N	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		8	swab	35755875
+SP0580	UAB515	Birmingham_AL	PD	M	N	White	Y	70	N	N	N	N	N	N		22.8049308		N	N	Y	Y						Y	N	N	N	N	N	N	N	Y	N	Y	N	N																		5	swab	44211101
+SP0593	UAB515	Birmingham_AL	PD	M	N	White	N	55	N	N	N	N	N	N		28.18890622	N	N	Y	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		0	swab	32672439
+SP0603	UAB515	Birmingham_AL	PD	M	N	White	N	71	N	N	N	N	N	N		32.97992119	N	N	N	Y	N						Y	N	N	N	N	N	N	N	Y	N	Y	N	Y																		7	swab	75682725
+SP0610	UAB515	Birmingham_AL	PD	F	N	White	N	67	N	N	N	N	N	N		23.40105601	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		7	swab	159932394
+SP0616	UAB515	Birmingham_AL	PD	M	N	White	N	50	N	N	N	N	N	N		24.39189189	Y	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	Y																		13	swab	27332294
+SP0621	UAB515	Birmingham_AL	PD	M	N	White	N	67	N	N	N	N	N	N		24.82324936	Y	N	N	Y	Y						Y	N	N	N	N	N	N	N	Y	N	Y	N	N																		11	swab	40357247
+SP0628	UAB515	Birmingham_AL	PD	M	N	White	N	72	N	N	N	N	N	N		27.83306122	N	N	N	N	Y						N	N	N	N	N	N	N	N	Y	N	Y	N	N																		9	swab	36084273
+SP0633	UAB515	Birmingham_AL	PD	M	N	White	N	61	N	N	N	N	N	N		31.13285714	N	N	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		10	swab	39598516
+SP0706	UAB515	Birmingham_AL	PD	M	N	White	N	65	N	N	N	N	N	N		30.4155102	N	N	N	Y	Y						N	Y	N	N	N	N	N	N	Y	N	Y	N	N																		12	swab	27210573
+SP0709	UAB515	Birmingham_AL	PD	M	N	White	N	59	N	N	N	N	N	N		31.47038567	N	N	N	N	Y						N		N	N	N	N	N	N	Y	N	Y	N	N																		10	swab	34521587
+SP0724	UAB515	Birmingham_AL	PD	M	N		Y	62	N	N	N	Y	N	Y		29.85651974	N	Y	N	N	N						N	Y	N	N	N	N	N	N	N	N	N	N	N																		6	swab	47733805
+SP0751	UAB515	Birmingham_AL	PD	M	N	White	N	64	N	N	N	N	N	N		21.42631173	Y	N	N	Y	Y						N	Y	N	N	N	N	N	N	N	N	N	Y	Y																		7	swab	41192040
+SP0888	UAB515	Birmingham_AL	PD	M	N	White	N	74	N	N	N	N	Y	Y		26.49672684	N	N	N	Y							N	N	N	N	N	N	N	N	N	N	N	N	N																		32	swab	41680289
+SP0938	UAB515	Birmingham_AL	PD	M	N	White	N	65	N	N	N	Y	N	Y		33.05118032	Y	Y	N	Y	N						N	Y	N	N	N	N	N	N	Y	N	Y	N	N																		6	swab	29138988
+SP0940	UAB515	Birmingham_AL	PD	F	N	White	N	70	N	N	N	N	Y	Y		23.59183143	N	N	N	Y	N							N		N	N	N	N	N	Y	N	Y	N																			4	swab	39715057
+SP0942	UAB515	Birmingham_AL	PD	F	N	White	N	66	N	N	N	N	N	N		28.49072266	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		5	swab	37486492
+SP0943	UAB515	Birmingham_AL	PD	F	N	White	N	71	N	N	N	N	N	N		30.26805556	N	N	N	Y	N						N	Y		N	N	N	N	N	Y	N	Y	N	N																		7	swab	31198788
+SP0944	UAB515	Birmingham_AL	PD	F	N	White	N	62	N	N	N	N	N	N		24.68912591	Y	N	N	Y	Y						N	Y	N	N	N	N	N	N	Y	N	Y	N	N																		5	swab	31159213
+SP0945	UAB515	Birmingham_AL	PD	F	N	White	N	57											N	Y	Y																																					swab	49278016
+SP0946	UAB515	Birmingham_AL	PD	F	N	White	N	69	N	N	N	N	N	N		29.45112426	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		11	swab	37351239
+SP0947	UAB515	Birmingham_AL	PD	M	Y	White	N	70	N	N	N	N	N	N		24.20798898	N	N	N	Y	N						N		N	N		N	N	N	N	N		N																			4	swab	39657509
+SP0948	UAB515	Birmingham_AL	PD	F	N	White	N	75	N	N	N	N	N	N		30.11085916	N	N	N	Y	N						N	Y	N	N	N	N	N	N	Y	N	Y	Y	Y																		6	swab	51683632
+SP0951	UAB515	Birmingham_AL	PD	M	N	White	N	56	N	N	N	N	N	N		22.95510204	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		5	swab	51452436
+SP0952	UAB515	Birmingham_AL	PD	M	N	White	N	42	N	N	Y	N	N	Y		49.78595517	Y	Y	N	Y	N						N	Y	Y	N	N	N	N	N	Y	N	Y	N	Y																		23	swab	41976331
+SP0954	UAB515	Birmingham_AL	PD	M	N	White	N	72	N	N	N	N	N	N		34.43265306	Y	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		7	swab	47681454
+SP0955	UAB515	Birmingham_AL	PD	F	N	White	N	71	N	N	N	N	N	N		24.36937557	N	Y	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		6	swab	47656065
+SP0958	UAB515	Birmingham_AL	PD	F	N	White	N	72	N	N	N	N	Y	Y		23.34179688	Y	N	N	Y	N						Y	Y	N	N	N	N	N	N	N	N	N	N	Y																		7	swab	46573883
+SP0959	UAB515	Birmingham_AL	PD	F	N	White	N	60	N	Y	N	Y	N	Y		34.32617188	N	Y	N	Y	N						Y	Y	N	N	N	N	N	N	Y	N	Y	N	Y																		5	swab	47852100
+SP0960	UAB515	Birmingham_AL	PD	M	N	White	N	61	N	N	N	N	Y	Y		22.31303313	N	N	Y	Y	Y						Y	N	N	N	N	N	N	N	N	N	N	N	N																		8	swab	38941102
+SP0962	UAB515	Birmingham_AL	PD	F	N	White	N	71	N	Y	N	N	Y	Y		25.62414201	N	N	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		5	swab	34897313
+SP0964	UAB515	Birmingham_AL	PD	M	N	White	N	50	N	N	N	N	N	N		32.73648649	N	N	N	Y	Y						N		N	N	N	N	N	N	N	N	N	N	N																		6	swab	41573776
+SP0966	UAB515	Birmingham_AL	PD	F	N	White	N	76	Y	Y	N	Y	N	Y		21.81097386	N	N	N	Y	N						N	N	Y			N	N	N	N	N	Y	N	Y																		6	swab	39647203
+SP0968	UAB515	Birmingham_AL	PD	F	N	White	Y	71	N	N	N	N	N	N		19.20265349	N	N	N	N	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		7	swab	24295172
+SP0969	UAB515	Birmingham_AL	PD	F	N	White	N	64	Y	N	Y	N	N	Y		28.18890622	N	Y	N	Y	N						N	Y				N	N	N	N	N		N	N																		3	swab	41041890
+SP0972	UAB515	Birmingham_AL	PD	M	N	White	N	75	N	N	N	N	N	N		31.79607221	N	Y	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		7	swab	33725343
+SP0975	UAB515	Birmingham_AL	PD	F	N	White	N	64	N	N	N	Y	N	Y		32.88705725	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																			swab	35802100
+SP0977	UAB515	Birmingham_AL	PD	F	N	White	N	81	N	N	N	N	N	N		25.91625977	N	N	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		6	swab	30409236
+SP0978	UAB515	Birmingham_AL	PD	M	N	White	N	65	N	N	N	N	N	N		30.51215278	Y	Y	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	Y																		0	swab	38936459
+SP0979	UAB515	Birmingham_AL	PD	F	N	White	N	68	N	N	N	N	Y	Y		23.34179688	Y	N	N	Y	Y						Y	Y	N	N	N	N	N	N	N	N	N	N	N																		6	swab	32275269
+SP0981	UAB515	Birmingham_AL	PD	M	N	White	N	75	Y	N	N	Y	N	Y		24.80090073	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	Y																		6	swab	30956474
+SP0982	UAB515	Birmingham_AL	PD	F	N	White	N	65	N	Y	N	N	Y	Y		21.45385742	Y	N	N	Y	N						Y	N	N	N	N	Y	N	N	N	N	Y	N	Y																		6	swab	34403738
+SP0983	UAB515	Birmingham_AL	PD	M	N	White	N	58	N	N	N	N	N	N		28.35034657	Y	Y	N	Y	Y						Y	N	N	N	N	N	N	N	N	N	N	N	Y																		6	swab	32860931
+SP0986	UAB515	Birmingham_AL	PD	F	N	White	N	62	N	N	N	N	Y	Y		23.56509516	Y	N	N	Y	Y						Y	N	N	N	N	N	N	N	Y	N	Y	N	N																		6	swab	31411969
+SP0987	UAB515	Birmingham_AL	PD	M	N	White	N	64	N	N	N	N	N	N		35.29027515	N	N	N	Y	N						Y	N	N	N	N	N	N	N	Y	N	Y	Y	Y																		5	swab	34251823
+SP0990	UAB515	Birmingham_AL	PD	F	N	White	N	56	N	N	N	N	N	N		28.14746094	N	N	N	Y	Y						Y	Y	N	N	N	N	N	N	N	N	N	N	N																		5	swab	44703282
+SP0991	UAB515	Birmingham_AL	PD	M	N	White	N	77	Y	N	N	N	N	Y		18.93795918	Y	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	Y																			swab	36004927
+SP0993	UAB515	Birmingham_AL	PD	F	N	White	N	54	N	N	N	N	N	N		32.189456	N	N	N	Y	N						Y	N	N	N	N	N	N	N	Y	N	Y	N																				swab	44528505
+SP0994	UAB515	Birmingham_AL	PD	F	N	White	N	56	N	N	N	N	N	N		22.99853516	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N																			6	swab	40356909
+SP0997	UAB515	Birmingham_AL	PD	F	N	White	N	58	N	N	N	N	N	N		24.54321289	N	N	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		4	swab	50226052
+SP1001	UAB515	Birmingham_AL	PD	M	N	White	N	63	N	N	N	N	N	N		34.58043981	N	N	N	Y	Y						Y	Y	N	N	N	N	N	N	N	N	N	N	N																		3	swab	15031040
+SP1002	UAB515	Birmingham_AL	PD	F	N	White	N	51	N	N	N	N	N	N		35.7739645	N	Y	N	N	Y						Y	Y	N	N	N	N	N	N	N	N	N	N	N																		11	swab	63599202
+SP1003	UAB515	Birmingham_AL	PD	M	N	White	N	58	N	N	N	Y	Y	Y		36.17622348	Y	N	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	Y																		5	swab	26214362
+SP1004	UAB515	Birmingham_AL	PD	F	N	White		81	N	N	N	N	N	N		21.21436004	N	N	N	N	N						N	N	Y			N	N	N	N	N	Y	N	N																		4	swab	40950137
+SP1007	UAB515	Birmingham_AL	PD	F	N	White	N	57	N	N	N	N	N	N		44.18857143	N	N	N	Y	Y						Y	Y	N	N	N	N	N	N	N	N	N	N	N																		4	swab	34306057
+SP1011	UAB515	Birmingham_AL	PD	M	N	White	N	60	N	N	N	N	N	N		33.37837838	N	N	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	Y																		6	swab	17880811
+SP1013	UAB515	Birmingham_AL	PD	M	N	White	N	75	N	N	N	N	N	N		29.64641003	N	N	N	Y	N						N	N	N		N	N	N	N	N	N		N	N																		7	swab	37353080
+SP1015	UAB515	Birmingham_AL	PD	M	N	White	N	87	N	N	N	N	N	N		25.56214673	N	N	N	Y	N						N	N	N	N	N	N	N	N	Y	N	Y	N	N																		5	swab	33070249
+SP1016	UAB515	Birmingham_AL	PD	M	N	White	N	63	N	N	N	N	N	N		23.67244898	Y	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		2	swab	34078332
+SP1019	UAB515	Birmingham_AL	PD	M	N	White		72	N	N	N	N	N	N			N	N	N	Y	Y						N	N	N	N	N	N	N	N	Y	N	Y	Y																			6	swab	75613240
+SP1021	UAB515	Birmingham_AL	PD	M	N	White	N	54	N	N	N	N	N	N		26.44386574	N	Y	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		11	swab	60977845
+SP1023	UAB515	Birmingham_AL	PD	M	N	White	N	71	N	Y	N	Y	Y	Y		30.40657439	N	Y	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		7	swab	38381415
+SP1024	UAB515	Birmingham_AL	PD	M	N	White	N	79	N	N	N	N	N	N		25.10216227	N	N	N	Y	N						N	N	N	N	N	N	N	N	Y	N	Y	N	Y																		7	swab	36591400
+SP1025	UAB515	Birmingham_AL	PD	M	N	White	N	55	N	N	N	N	N	N		29.42531244	Y	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		5	swab	66489363
+SP1031	UAB515	Birmingham_AL	PD	M	N	White	N	75	N	Y	N	Y	N	Y		31.63017833	N	N	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		5	swab	47592266
+SP1032	UAB515	Birmingham_AL	PD	M	N	White	N	69	N	N	N	N	N	N		28.5885737	N	N	N	Y	N								N	N	N	N	N	N	N	N	N	N	N																		7	swab	45012556
+SP1033	UAB515	Birmingham_AL	PD	M	N	White	N	69	N	N	N	N	N	N		29.64641003	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		3	swab	35518429
+SP1034	UAB515	Birmingham_AL	PD	M	N	White	N	51	N	N	N	N	N	N		36.01915794	N	N	N	Y	Y						N	N	N	Y	N	N	N	N	N	N	Y	N	N																		6	swab	35516482
+SP1036	UAB515	Birmingham_AL	PD	M	N	White	N	66	N	N	N	N	N	N		40.68287037	N	N	N	Y	Y						N	Y	N	N	N	N	N	N	N	N	N	N	N																		3	swab	58244403
+SP1038	UAB515	Birmingham_AL	PD	M	N	White	N	81	N	N	N	N	N	N		26.6057526	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		3	swab	16622371
+SP1039	UAB515	Birmingham_AL	PD	M	N	White	N	83	N	N	N	N	N	N		23.92060491	N	N	N	Y	Y						Y	N	N	Y	N	Y	N	Y	N	N	Y	N	Y																		6	swab	30096364
+SP1040	UAB515	Birmingham_AL	PD	F	N	White	N	73	Y	Y		Y	Y	Y		18.952129	N	Y	N	Y	N						Y	Y	N	N	N		N	N	N	N		N	N																		5	swab	42944103
+SP1043	UAB515	Birmingham_AL	PD	M	N	White	N	66	N	N	N	N	N	N		20.44755114	Y	N	N	Y	N						N	N	N	N	N	N	N	Y	Y	N	Y	N	N																		8	swab	18684034
+SP1045	UAB515	Birmingham_AL	PD	M	N	White	N	59	N	N	N	N	N	N		30.41755934	N	Y	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		5	swab	25193592
+SP1048	UAB515	Birmingham_AL	PD	M	N	White	N	46	N	N	N	N	N	N		32.07498512	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		5	swab	38460093
+SP1049	UAB515	Birmingham_AL	PD	M	N	White	N	70																																																	6	swab	52082886
+SP1050	UAB515	Birmingham_AL	PD	M	N	White	N	71								29.69849537	N	N	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	Y																		6	swab	40397491
+SP1051	UAB515	Birmingham_AL	PD	M	N	White	N	70	N	N	N	N	N	N		30.51215278	N	N	N	Y	N						N	N	N	N	N	N	N	N	Y	N	Y	N	N																		2	swab	37936566
+SP1053	UAB515	Birmingham_AL	PD	M	N	White	N	76					Y	Y		25.80405405	N	N	N	Y	N						Y	N	N	N	N	N	N	N	N			N	N																		8	swab	58013410
+SP1054	UAB515	Birmingham_AL	PD	F	N	White	N	79	N	N	N	Y	N	Y		24.0267929	N	N	N	Y	N						Y		N	N	N	N	N	N	N	N	N	N	N																		3	swab	38646913
+SP1055	UAB515	Birmingham_AL	PD	M	N	White	N	46	N	N	N	N	N	N		30.12259472	N	N	N	Y	N						N	Y	N	N	N	N	N	N	N	N	N	N	N																		6	swab	54117041
+SP1056	UAB515	Birmingham_AL	PD	M	N	White	N	66	N	N	N	N	N	N		37.73244898	N	N	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		1	swab	44541193
+SP1064	UAB515	Birmingham_AL	PD	M	N	White	Y	64	N	N	N	N	N	N		34.14571429	N	Y	N	N	Y						Y	Y	N	N	N	N	N	N	N	N	N	N	N																		6	swab	105158365
+SP1065	UAB515	Birmingham_AL	PD	M	N	White	N	72	N	N	N	N	N	N		33.76678241	N		N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		3	swab	28738808
+SP1066	UAB515	Birmingham_AL	PD	F	N	White	N	66	N	N	N	N	N	N		25.84015963	N	Y	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	Y																		5	swab	42757580
+SP1068	UAB515	Birmingham_AL	PD	F	N	White	N	73	N	N	N	N	N	N		23.62745562	Y	N	N	Y	N						N	N	N	N	N	Y	N	N	N	N	Y	N	N																		4	swab	35104885
+SP1069	UAB515	Birmingham_AL	PD	F	N	White	N	73			Y			Y		17.2265538	Y	N	N	Y	N						N	Y	N	N	N	N	N	N	N	N	N	N	Y																		6	swab	22039066
+SP1072	UAB515	Birmingham_AL	PD	F	N	White	N	59	Y	N	N	N	N	Y		21.43184681	N	N	N	Y	N						N	N	N	N	N	N	N	N	Y	N	Y	N	N																		6	swab	34233856
+SP1073	UAB515	Birmingham_AL	PD	F	N	White	N	84	N	N	N	Y	N	Y		27.3945176	N	N	N	Y	N						Y	N	N	N	N	N	N		N	N		N	N																		6	swab	24521289
+SP1074	UAB515	Birmingham_AL	PD	F	N	White	N	68	N	N	N	N	N	N		30.22843322	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		6	swab	25101060
+SP1075	UAB515	Birmingham_AL	PD	F	N	White	N	68	N	N	N	N	N	N			N	Y	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		2	swab	20273088
+SP1076	UAB515	Birmingham_AL	PD	M	N	White	N	86	N	N	N	N	N	N		30.58542155	N	N	N	Y	N						Y	N	N	N	N	N	N	N	Y	N	Y	N	N																		5	swab	33336852
+SP1079	UAB515	Birmingham_AL	PD	M	N	White	N	59	N	N	N	N	N	N		29.12428571	N	Y	N	Y	N						N	Y	N	N	N	N	N	N	Y	N	Y	N	Y																		4	swab	26933848
+SP1080	UAB515	Birmingham_AL	PD	M	N	White	N	78	N	N	N	N	Y	Y		18.01428271		N	N	Y	Y						Y	N	N	N	N	N	N	N	N	N	N	N	N																		8	swab	59746848
+SP1082	UAB515	Birmingham_AL	PD	M	N	White	N	72	N	N	N	N	N	N		25.7658179	N	N	N	Y	Y						N	Y	N	N	N	N	N	N	N	N	N	N	Y																		5	swab	42464915
+SP1083	UAB515	Birmingham_AL	PD	F	N	White	N	77	N	N	N	N	N	N		24.68912591	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		2	swab	29420998
+SP1087	UAB515	Birmingham_AL	PD	M	N	White	N	70	N	N	N	N	N	N		25.10186936	Y	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	Y																		7	swab	33552207
+SP1089	UAB515	Birmingham_AL	PD	M	N	White	N	69	Y	Y	Y	Y	Y	Y		28.5885737	N	N	N	Y	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		4	swab	37176255
+SP1090	UAB515	Birmingham_AL	PD	F	N	White	N	71	N	N	N	N	Y	Y		20.79881657	N		N	Y	N						Y	N	N		N	N	N	N	N	N		N	Y																		5	swab	58358643
+SP1091	UAB515	Birmingham_AL	PD	M	N	White	N	73	N	N	N	N	N	N		28.97193139	N	N	N	Y	Y						Y	N	N	N	N	N	N	N	N	N	N	N	Y																		8	swab	47898598
+SP1092	UAB515	Birmingham_AL	PD	M	N	White	N	74	N	N	N	N				25.82185491	Y	N	N	Y	Y						Y	N	N	N	N	N	N	N	N	N	N	N	N																		7	swab	33424499
+SP1093	UAB515	Birmingham_AL	PD	M	N	White	N	70	N	N	N	N	N	N		31.26944	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	N	N																		7	swab	30979640
+SP1096	UAB515	Birmingham_AL	PD	M	N	White	N	70	Y	N	N	Y	Y	Y			N	N	N	Y	N						Y	N	Y			N	N	N	N	N	Y	N	N																		6	swab	38170403
+SP1098	UAB515	Birmingham_AL	PD	F	N	White	N	57	N	N	N	N	N	N		21.34883096	N	N	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		9	swab	37335777
+SP1100	UAB515	Birmingham_AL	PD	M	N	White	N	75	N	N	N	N	N	N		26.90981834	N	N	N	Y	Y						N	Y	N	N	N	N	N	N	N	N	N	N	N																		5	swab	27415602
+SP1101	UAB515	Birmingham_AL	PD	M	N	White	N	74	N	N	N	N	N	N		41.96051423	N	N	N	Y	N						N	N	N	N	N	N	N	N	N	N	N	Y	N																		4	swab	34465584
+SP1103	UAB515	Birmingham_AL	PD	M	N	White	N	74	N	N	N	N	N	N		26.30168685	N	N	Y	Y	Y						Y	N	N	N	N	N	N	N	Y	N	Y	N	N																		4	swab	43645148
+SP1106	UAB515	Birmingham_AL	PD	M	N	White	N	81	N	N	N	N	N	N		28.79332073	N	N	N	N	Y						Y	Y	N	N	N	N	N	N	Y	N	Y	N	N																		10	swab	31236035
+SP1107	UAB515	Birmingham_AL	PD	M	N	White	N	64	N	N	N	Y	N	Y		39.37651384	Y	N	N	Y	Y						N	Y	N	N	N	N	N	N	Y	N	Y	N	N																		4	swab	39930914
+SP1108	UAB515	Birmingham_AL	PD	F	N	White	N	70	N	Y	N	N	N	Y		26.95526627	Y	N	N	Y	N						Y	N	N	N	N	N	N	N	N	N	N	N	N																		4	swab	32314773
+SP1109	UAB515	Birmingham_AL	PD	M	N	White	N	78	N	N	N	N	N	N		29.41122449	N	Y	N	N	Y						N	N	N	N	N	N	N	N	N	N	N	N	N																		4	swab	22791910

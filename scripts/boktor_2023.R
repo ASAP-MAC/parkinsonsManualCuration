@@ -12,7 +12,7 @@ boktor <- boktor %>%
         sample_id = id,
         subject_id = host_subject_id,
         curator = "Kaelyn Long",
-        target_condition = "Parkinsons disease",
+        target_condition = "Parkinson disease",
         target_condition_ontology_term_id = "NCIT:C26845",
         study_name = "BoktorJC_2023",
         control = case_when(

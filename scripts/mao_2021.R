@@ -55,7 +55,7 @@ mao <- mao %>%
     mutate(
         disease = disease,
         disease_ontology_term_id = case_when(
-            disease == "Parkinson Disease" ~ "NCIT:C26845"
+            disease == "Parkinson disease" ~ "NCIT:C26845"
         )
     )
 

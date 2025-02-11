@@ -3,44 +3,33 @@ library(readxl)
 
 filedir <- "../original_metadata"
 outdir <- "../curated_metadata"
-boktor <- read_xlsx(file.path(filedir, "mds29300-sup-0017-tables10.xlsx"),
-                    sheet = "metadata")
+bedarf <- read.csv(file.path(filedir, "BedarfJR_2017_metadata_newgrammar.tsv"),
+                   sep = "\t")
 
 # Category: Study
-boktor <- boktor %>%
+bedarf <- bedarf %>%
     mutate(
-        sample_id = id,
-        subject_id = host_subject_id,
-        curator = "Kaelyn Long",
+        sample_id = sample_id,
+        subject_id = subject_id,
+        curator = curator,
         target_condition = "Parkinson disease",
         target_condition_ontology_term_id = "NCIT:C26845",
-        study_name = "BoktorJC_2023",
+        study_name = "BedarfJR_2017",
         control = case_when(
-            donor_group == "PD" ~ "Case",
-            donor_group == "HC" ~ "Internal Comparison Group",
-            donor_group == "PC" ~ "External Comparison Group"
+            control == "Case" ~ "Case",
+            control == "Study control" ~ "Study Control"
         ),
         control_ontology_term_id = case_when(
             control == "Case" ~ "NCIT:C49152",
-            control == "Internal Comparison Group" ~ "NCIT:C71545",
-            control == "External Comparison Group" ~ "NCIT:C71546"
+            control == "Study Control" ~ "NCIT:C142703"
         )
     )
 
 # Category: Personal
-boktor <- boktor %>%
+bedarf <- bedarf %>%
     mutate(
-        age = as.numeric(case_when(
-            host_age %in% c("not provided", "not collected") ~ NA,
-            .default = host_age
-            )),
-        age_group = case_when(
-            11 <= age & age < 18 ~ "Adolescent",
-            18 <= age & age < 65 ~ "Adult",
-            2 <= age & age < 11 ~ "Children 2-11 Years Old",
-            65 <= age & age < 130 ~ "Elderly",
-            0 <= age & age < 2 ~ "Infant"
-        ),
+        age = age,
+        age_group = age_group,
         age_group_ontology_term_id = case_when(
             age_group == "Adolescent" ~ "NCIT:C27954",
             age_group == "Adult" ~ "NCIT:C49685",
@@ -49,10 +38,12 @@ boktor <- boktor %>%
             age_group == "Infant" ~ "NCIT:C27956"
         ),
         age_unit = "Year",
-        age_unit_ontology_term_id = "NCIT:C29848",
+        age_unit_ontology_term_id = case_when(
+            age_unit == "Year" ~ "NCIT:C29848"
+        ),
         sex = case_when(
-            sex == "female" ~ "Female",
-            sex == "male" ~ "Male"
+            sex == "Male" ~ "Male",
+            sex == "Na" ~ NA
         ),
         sex_ontology_term_id = case_when(
             sex == "Female" ~ "NCIT:C16576",
@@ -61,11 +52,11 @@ boktor <- boktor %>%
     )
 
 # Category: Disease
-boktor <- boktor %>%
+bedarf <- bedarf %>%
     mutate(
         disease = case_when(
-            PD == "Yes" ~ "Parkinson disease",
-            PD == "No" ~ "Healthy"
+            disease == "Parkinson disease" ~ "Parkinson disease",
+            disease == "healthy" ~ "Healthy"
         ),
         disease_ontology_term_id = case_when(
             disease == "Parkinson disease" ~ "NCIT:C26845",
@@ -74,7 +65,7 @@ boktor <- boktor %>%
     )
 
 # Select and save curated columns
-curated_boktor <- boktor %>%
+curated_bedarf <- bedarf %>%
     mutate(curation_id = paste(study_name, subject_id, sep = ":")) %>%
     select(
         curation_id,
@@ -97,4 +88,4 @@ curated_boktor <- boktor %>%
         curator
     )
 
-write.csv(curated_boktor, file = file.path(outdir, "boktor_2023_curated_metadata.csv"), row.names = FALSE)
+write.csv(curated_bedarf, file = file.path(outdir, "bedarf_2017_curated_metadata.csv"), row.names = FALSE)

@@ -1,5 +1,6 @@
 library(readxl)
 
+setwd("/home/kaelyn/Desktop/Work/ASAP_MAC/parkinsonsManualCuration/scripts")
 filedir <- "../original_metadata"
 
 boktor <- read_xlsx(file.path(filedir, "mds29300-sup-0017-tables10.xlsx"),

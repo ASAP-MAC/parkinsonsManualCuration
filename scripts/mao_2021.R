@@ -31,11 +31,11 @@ mao <- mao %>%
         age = age,
         age_group = age_group,
         age_group_ontology_term_id = case_when(
-            age == "Adolescent" ~ "NCIT:C27954",
-            age == "Adult" ~ "NCIT:C49685",
-            age == "Children 2-11 Years Old" ~ "NCIT:C49683",
-            age == "Elderly" ~ "NCIT:C16268",
-            age == "Infant" ~ "NCIT:C27956"
+            age_group == "Adolescent" ~ "NCIT:C27954",
+            age_group == "Adult" ~ "NCIT:C49685",
+            age_group == "Children 2-11 Years Old" ~ "NCIT:C49683",
+            age_group == "Elderly" ~ "NCIT:C16268",
+            age_group == "Infant" ~ "NCIT:C27956"
         ),
         age_unit = case_when(
             age_unit == "year" ~ "Year"

@@ -130,4 +130,4 @@ curated_wallen <- wallen %>%
         curator
     )
 
-write.csv(curated_wallen, file = file.path(outdir, "wallen_2022_curated_metadata.csv"), row.names = FALSE)
+write.csv(curated_wallen, file = file.path(outdir, "WallenZD_2022_curated_metadata.csv"), row.names = FALSE)

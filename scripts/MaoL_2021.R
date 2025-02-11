@@ -83,4 +83,4 @@ curated_mao <- mao %>%
         curator
     )
 
-write.csv(curated_mao, file = file.path(outdir, "mao_2021_curated_metadata.csv"), row.names = FALSE)
+write.csv(curated_mao, file = file.path(outdir, "MaoL_2021_curated_metadata.csv"), row.names = FALSE)

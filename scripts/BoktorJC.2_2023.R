@@ -5,15 +5,15 @@ filedir <- "../original_metadata"
 outdir <- "../curated_metadata"
 boktor <- read_xlsx(file.path(filedir, "mds29300-sup-0017-tables10.xlsx"),
                     sheet = "metadata")
-boktor_accessions1 <- read.csv(file.path(filedir, "BoktorJC_2023.csv"))
+boktor_accessions2 <- read.csv(file.path(filedir, "BoktorJC.2_2023.csv"))
 
-boktor1 <- boktor %>%
-    filter(host_subject_id %in% boktor_accessions1$host_subject_id)
-boktor_accessions1_left <- boktor_accessions1 %>%
-    filter(!host_subject_id %in% boktor1$host_subject_id)
+boktor2 <- boktor %>%
+    filter(host_subject_id %in% boktor_accessions2$host_subject_id)
+boktor_accessions2_left <- boktor_accessions2 %>%
+    filter(!host_subject_id %in% boktor2$host_subject_id)
 
 # Category: Study
-boktor1 <- boktor1 %>%
+boktor2 <- boktor2 %>%
     mutate(
         sample_id = id,
         subject_id = host_subject_id,
@@ -33,7 +33,7 @@ boktor1 <- boktor1 %>%
         )
     )
 
-boktor_accessions1_left <- boktor_accessions1_left %>%
+boktor_accessions2_left <- boktor_accessions2_left %>%
     mutate(
         sample_id = host_subject_id,
         subject_id = host_subject_id,
@@ -42,23 +42,17 @@ boktor_accessions1_left <- boktor_accessions1_left %>%
         target_condition_ontology_term_id = "NCIT:C26845",
         study_name = "BoktorJC_2023",
         control = case_when(
-            donor_group == "PD" ~ "Case",
-            donor_group == "HC" ~ "Internal Comparison Group",
-            donor_group == "PC" ~ "External Comparison Group",
-            donor_group == "MSA" ~ "Multiple System Atrophy",
-            donor_group == "BLANK" ~ "Study Control"
+            donor_group == "PD Patient" ~ "Case",
+            donor_group == "Household Control" ~ "Internal Comparison Group"
         ),
         control_ontology_term_id = case_when(
             control == "Case" ~ "NCIT:C49152",
-            control == "Internal Comparison Group" ~ "NCIT:C71545",
-            control == "External Comparison Group" ~ "NCIT:C71546",
-            control == "Multiple System Atrophy" ~ "NCIT:C84909",
-            control == "Study Control" ~ "NCIT:C142703"
+            control == "Internal Comparison Group" ~ "NCIT:C71545"
         )
     )
 
 # Category: Personal
-boktor1 <- boktor1 %>%
+boktor2 <- boktor2 %>%
     mutate(
         age = as.numeric(case_when(
             host_age %in% c("not provided", "not collected") ~ NA,
@@ -94,12 +88,9 @@ boktor1 <- boktor1 %>%
         )
     )
 
-boktor_accessions1_left <- boktor_accessions1_left %>%
+boktor_accessions2_left <- boktor_accessions2_left %>%
     mutate(
-        age = as.numeric(case_when(
-            host_age %in% c("not provided", "") ~ NA,
-            .default = host_age
-        )),
+        age = as.numeric(host_age),
         age_group = case_when(
             11 <= age & age < 18 ~ "Adolescent",
             18 <= age & age < 65 ~ "Adult",
@@ -114,12 +105,8 @@ boktor_accessions1_left <- boktor_accessions1_left %>%
             age_group == "Elderly" ~ "NCIT:C16268",
             age_group == "Infant" ~ "NCIT:C27956"
         ),
-        age_unit = case_when(
-            !is.na(age) ~ "Year"
-        ),
-        age_unit_ontology_term_id = case_when(
-            !is.na(age_unit) ~ "NCIT:C29848"
-        ),
+        age_unit = "Year",
+        age_unit_ontology_term_id = "NCIT:C29848",
         sex = case_when(
             sex == "female" ~ "Female",
             sex == "male" ~ "Male"
@@ -131,7 +118,7 @@ boktor_accessions1_left <- boktor_accessions1_left %>%
     )
 
 # Category: Disease
-boktor1 <- boktor1 %>%
+boktor2 <- boktor2 %>%
     mutate(
         disease = case_when(
             PD == "Yes" ~ "Parkinson disease",
@@ -143,22 +130,20 @@ boktor1 <- boktor1 %>%
         )
     )
 
-boktor_accessions1_left <- boktor_accessions1_left %>%
+boktor_accessions2_left <- boktor_accessions2_left %>%
     mutate(
         disease = case_when(
             control == "Case" ~ "Parkinson disease",
-            control == "Multiple System Atrophy" ~ "Multiple System Atrophy",
             .default = "Healthy"
         ),
         disease_ontology_term_id = case_when(
             disease == "Parkinson disease" ~ "NCIT:C26845",
-            disease == "Multiple System Atrophy" ~ "NCIT:C84909",
             disease == "Healthy" ~ "NCIT:C115935"
         )
     )
 
 # Select and save curated columns
-curated_boktor1 <- bind_rows(boktor1, boktor_accessions1_left) %>%
+curated_boktor2 <- bind_rows(boktor2, boktor_accessions2_left) %>%
     mutate(curation_id = paste(study_name, subject_id, sep = ":")) %>%
     select(
         curation_id,
@@ -181,4 +166,5 @@ curated_boktor1 <- bind_rows(boktor1, boktor_accessions1_left) %>%
         curator
     )
 
-write.csv(curated_boktor1, file = file.path(outdir, "BoktorJC_2023_curated_metadata.csv"), row.names = FALSE)
+write.csv(curated_boktor2, file = file.path(outdir, "BoktorJC.2_2023_curated_metadata.csv"), row.names = FALSE)
+

@@ -15,3 +15,5 @@ nishiwaki <- read_xlsx(file.path(filedir, "NishiwakiH_2024_rawMetadata.xlsx"),
                                  sheet = "Sheet2")
 nishiwaki_info <- read_xlsx(file.path(filedir, "columnNamesExplained.xlsx"),
                             sheet = "Sheet1")
+jo <- read.csv(file.path(filedir, "JoS_2022.csv"))
+lee <- read.csv(file.path(filedir, "LeeEJ_2024.csv"))

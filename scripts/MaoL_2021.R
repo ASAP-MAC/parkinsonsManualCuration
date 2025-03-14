@@ -53,9 +53,13 @@ mao <- mao %>%
 # Category: Disease
 mao <- mao %>%
     mutate(
-        disease = disease,
+        disease = case_when(
+            disease == "Parkinson disease" ~ "Parkinson disease",
+            is.na(disease) ~ "Healthy"
+        ),
         disease_ontology_term_id = case_when(
-            disease == "Parkinson disease" ~ "NCIT:C26845"
+            disease == "Parkinson disease" ~ "NCIT:C26845",
+            disease == "Healthy" ~ "NCIT:C115935"
         )
     )
 

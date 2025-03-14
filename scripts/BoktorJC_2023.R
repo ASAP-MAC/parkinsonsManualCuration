@@ -148,6 +148,7 @@ boktor_accessions1_left <- boktor_accessions1_left %>%
         disease = case_when(
             control == "Case" ~ "Parkinson disease",
             control == "Multiple System Atrophy" ~ "Multiple System Atrophy",
+            donor_group == "BLANK" ~ NA,
             .default = "Healthy"
         ),
         disease_ontology_term_id = case_when(

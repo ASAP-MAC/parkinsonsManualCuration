@@ -20,7 +20,7 @@ zhang <- zhang %>%
 # Category: Disease
 zhang <- zhang %>%
     mutate(
-        disease = "Parkinson disease",
+        disease = "Parkinson Disease",
         disease_ontology_term_id = "NCIT:C26845"
     )
 

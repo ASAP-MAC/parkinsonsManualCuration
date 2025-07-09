@@ -20,7 +20,7 @@ lee <- lee %>%
 # Category: Disease
 lee <- lee %>%
     mutate(
-        disease = "Parkinson disease",
+        disease = "Parkinson Disease",
         disease_ontology_term_id = "NCIT:C26845"
     )
 

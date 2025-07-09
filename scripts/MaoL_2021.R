@@ -12,7 +12,7 @@ mao <- mao %>%
         sample_id = sample_id,
         subject_id = subject_id,
         curator = curator,
-        target_condition = target_condition,
+        target_condition = "Parkinson Disease",
         target_condition_ontology_term_id = "NCIT:C26845",
         study_name = study_name,
         control = case_when(
@@ -54,11 +54,11 @@ mao <- mao %>%
 mao <- mao %>%
     mutate(
         disease = case_when(
-            disease == "Parkinson disease" ~ "Parkinson disease",
+            disease == "Parkinson disease" ~ "Parkinson Disease",
             is.na(disease) ~ "Healthy"
         ),
         disease_ontology_term_id = case_when(
-            disease == "Parkinson disease" ~ "NCIT:C26845",
+            disease == "Parkinson Disease" ~ "NCIT:C26845",
             disease == "Healthy" ~ "NCIT:C115935"
         )
     )

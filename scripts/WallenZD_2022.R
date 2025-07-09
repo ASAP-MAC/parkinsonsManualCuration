@@ -1,8 +1,10 @@
 library(dplyr)
 library(readxl)
+library(tidyr)
+library(stringr)
 
-filedir <- "../original_metadata"
-outdir <- "../curated_metadata"
+filedir <- "/home/kaelyn/Desktop/Work/ASAP_MAC/parkinsonsManualCuration/original_metadata"
+outdir <- "/home/kaelyn/Desktop/Work/ASAP_MAC/parkinsonsManualCuration/curated_metadata"
 wallen <- read_xlsx(file.path(filedir, "Source_Data_24Oct2022.xlsx"),
                     sheet = "subject_metadata")
 
@@ -82,7 +84,7 @@ wallen <- wallen %>%
             Intestinal_disease == "Y" ~ "Intestinal Disorder"
         ),
         PD = case_when(
-            Case_status == "PD" ~ "Parkinson disease"
+            Case_status == "PD" ~ "Parkinson Disease"
         )
     ) %>%
     unite("disease", PD, IBS, IBD, SIBO, Celiac_disease, Crohns_disease,
@@ -94,7 +96,7 @@ wallen <- wallen %>%
             disease != "" ~ disease
         ),
         disease_ontology_term_id = str_replace_all(disease, c(
-            "Parkinson disease" = "NCIT:C26845",
+            "Parkinson Disease" = "NCIT:C26845",
             "Irritable Bowel Syndrome" = "NCIT:C82343",
             "Inflammatory Bowel Disease" = "NCIT:C3138",
             "Small bowel bacterial overgrowth syndrome (disorder)" = "SNOMED:446081009",

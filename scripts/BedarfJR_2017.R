@@ -12,7 +12,7 @@ bedarf <- bedarf %>%
         sample_id = sample_id,
         subject_id = subject_id,
         curator = curator,
-        target_condition = "Parkinson disease",
+        target_condition = "Parkinson Disease",
         target_condition_ontology_term_id = "NCIT:C26845",
         study_name = "BedarfJR_2017",
         control = case_when(
@@ -55,11 +55,11 @@ bedarf <- bedarf %>%
 bedarf <- bedarf %>%
     mutate(
         disease = case_when(
-            disease == "Parkinson disease" ~ "Parkinson disease",
+            disease == "Parkinson disease" ~ "Parkinson Disease",
             disease == "healthy" ~ "Healthy"
         ),
         disease_ontology_term_id = case_when(
-            disease == "Parkinson disease" ~ "NCIT:C26845",
+            disease == "Parkinson Disease" ~ "NCIT:C26845",
             disease == "Healthy" ~ "NCIT:C115935"
         )
     )

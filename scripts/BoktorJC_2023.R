@@ -18,7 +18,7 @@ boktor1 <- boktor1 %>%
         sample_id = id,
         subject_id = host_subject_id,
         curator = "Kaelyn Long",
-        target_condition = "Parkinson disease",
+        target_condition = "Parkinson Disease",
         target_condition_ontology_term_id = "NCIT:C26845",
         study_name = "BoktorJC_2023",
         control = case_when(
@@ -38,7 +38,7 @@ boktor_accessions1_left <- boktor_accessions1_left %>%
         sample_id = host_subject_id,
         subject_id = host_subject_id,
         curator = "Kaelyn Long",
-        target_condition = "Parkinson disease",
+        target_condition = "Parkinson Disease",
         target_condition_ontology_term_id = "NCIT:C26845",
         study_name = "BoktorJC_2023",
         control = case_when(
@@ -134,11 +134,11 @@ boktor_accessions1_left <- boktor_accessions1_left %>%
 boktor1 <- boktor1 %>%
     mutate(
         disease = case_when(
-            PD == "Yes" ~ "Parkinson disease",
+            PD == "Yes" ~ "Parkinson Disease",
             PD == "No" ~ "Healthy"
         ),
         disease_ontology_term_id = case_when(
-            disease == "Parkinson disease" ~ "NCIT:C26845",
+            disease == "Parkinson Disease" ~ "NCIT:C26845",
             disease == "Healthy" ~ "NCIT:C115935"
         )
     )
@@ -146,13 +146,13 @@ boktor1 <- boktor1 %>%
 boktor_accessions1_left <- boktor_accessions1_left %>%
     mutate(
         disease = case_when(
-            control == "Case" ~ "Parkinson disease",
+            control == "Case" ~ "Parkinson Disease",
             control == "Multiple System Atrophy" ~ "Multiple System Atrophy",
             donor_group == "BLANK" ~ NA,
             .default = "Healthy"
         ),
         disease_ontology_term_id = case_when(
-            disease == "Parkinson disease" ~ "NCIT:C26845",
+            disease == "Parkinson Disease" ~ "NCIT:C26845",
             disease == "Multiple System Atrophy" ~ "NCIT:C84909",
             disease == "Healthy" ~ "NCIT:C115935"
         )

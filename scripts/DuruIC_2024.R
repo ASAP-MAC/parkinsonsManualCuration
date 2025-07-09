@@ -27,11 +27,11 @@ duru <- duru %>%
 duru <- duru %>%
     mutate(
         disease = case_when(
-            control == "Case" ~ "Parkinson disease",
+            control == "Case" ~ "Parkinson Disease",
             control == "Study Control" ~ "Healthy"
         ),
         disease_ontology_term_id = case_when(
-            disease == "Parkinson disease" ~ "NCIT:C26845",
+            disease == "Parkinson Disease" ~ "NCIT:C26845",
             disease == "Healthy" ~ "NCIT:C115935"
         )
     )

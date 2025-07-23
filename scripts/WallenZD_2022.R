@@ -3,8 +3,8 @@ library(readxl)
 library(tidyr)
 library(stringr)
 
-filedir <- "/home/kaelyn/Desktop/Work/ASAP_MAC/parkinsonsManualCuration/original_metadata"
-outdir <- "/home/kaelyn/Desktop/Work/ASAP_MAC/parkinsonsManualCuration/curated_metadata"
+filedir <- "../original_metadata"
+outdir <- "../curated_metadata"
 wallen <- read_xlsx(file.path(filedir, "Source_Data_24Oct2022.xlsx"),
                     sheet = "subject_metadata")
 
@@ -24,7 +24,11 @@ wallen <- wallen %>%
         control_ontology_term_id = case_when(
             control == "Case" ~ "NCIT:C49152",
             control == "Study Control" ~ "NCIT:C142703"
-        )
+        ),
+        body_site = "feces",
+        body_site_ontology_term_id = "UBERON:0001988",
+        host_species = "Homo sapiens",
+        host_species_ontology_term_id = "NCBITaxon:9606"
     )
 
 # Category: Personal
@@ -118,6 +122,10 @@ curated_wallen <- wallen %>%
         subject_id,
         target_condition,
         target_condition_ontology_term_id,
+        body_site,
+        body_site_ontology_term_id,
+        host_species,
+        host_species_ontology_term_id,
         control,
         control_ontology_term_id,
         age,

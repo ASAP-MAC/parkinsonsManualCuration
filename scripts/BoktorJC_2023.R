@@ -30,7 +30,11 @@ boktor1 <- boktor1 %>%
             control == "Case" ~ "NCIT:C49152",
             control == "Internal Comparison Group" ~ "NCIT:C71545",
             control == "External Comparison Group" ~ "NCIT:C71546"
-        )
+        ),
+        body_site = "feces",
+        body_site_ontology_term_id = "UBERON:0001988",
+        host_species = "Homo sapiens",
+        host_species_ontology_term_id = "NCBITaxon:9606"
     )
 
 boktor_accessions1_left <- boktor_accessions1_left %>%
@@ -54,7 +58,11 @@ boktor_accessions1_left <- boktor_accessions1_left %>%
             control == "External Comparison Group" ~ "NCIT:C71546",
             control == "Multiple System Atrophy" ~ "NCIT:C84909",
             control == "Study Control" ~ "NCIT:C142703"
-        )
+        ),
+        body_site = "feces",
+        body_site_ontology_term_id = "UBERON:0001988",
+        host_species = "Homo sapiens",
+        host_species_ontology_term_id = "NCBITaxon:9606"
     )
 
 # Category: Personal
@@ -168,6 +176,10 @@ curated_boktor1 <- bind_rows(boktor1, boktor_accessions1_left) %>%
         subject_id,
         target_condition,
         target_condition_ontology_term_id,
+        body_site,
+        body_site_ontology_term_id,
+        host_species,
+        host_species_ontology_term_id,
         control,
         control_ontology_term_id,
         age,

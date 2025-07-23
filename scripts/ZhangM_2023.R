@@ -14,7 +14,11 @@ zhang <- zhang %>%
         target_condition_ontology_term_id = "NCIT:C26845",
         study_name = "ZhangM_2023",
         control = "Case",
-        control_ontology_term_id = "NCIT:C49152"
+        control_ontology_term_id = "NCIT:C49152",
+        body_site = "feces",
+        body_site_ontology_term_id = "UBERON:0001988",
+        host_species = "Homo sapiens",
+        host_species_ontology_term_id = "NCBITaxon:9606"
     )
 
 # Category: Disease
@@ -34,6 +38,10 @@ curated_zhang <- zhang %>%
         subject_id,
         target_condition,
         target_condition_ontology_term_id,
+        body_site,
+        body_site_ontology_term_id,
+        host_species,
+        host_species_ontology_term_id,
         control,
         control_ontology_term_id,
         disease,

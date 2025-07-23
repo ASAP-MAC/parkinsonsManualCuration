@@ -20,7 +20,11 @@ duru <- duru %>%
         control_ontology_term_id = case_when(
             control == "Case" ~ "NCIT:C49152",
             control == "Study Control" ~ "NCIT:C142703"
-        )
+        ),
+        body_site = "feces",
+        body_site_ontology_term_id = "UBERON:0001988",
+        host_species = "Homo sapiens",
+        host_species_ontology_term_id = "NCBITaxon:9606"
     )
 
 # Category: Disease
@@ -46,6 +50,10 @@ curated_duru <- duru %>%
         subject_id,
         target_condition,
         target_condition_ontology_term_id,
+        body_site,
+        body_site_ontology_term_id,
+        host_species,
+        host_species_ontology_term_id,
         control,
         control_ontology_term_id,
         disease,

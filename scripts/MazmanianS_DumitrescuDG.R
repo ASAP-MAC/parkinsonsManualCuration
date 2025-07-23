@@ -3,21 +3,21 @@ library(readxl)
 
 filedir <- "../original_metadata"
 outdir <- "../curated_metadata"
-mao <- read.csv(file.path(filedir, "MaoL_2021_metadata.tsv"),
-                    sep = "\t")
+dumitrescu <- read.csv(file.path(filedir, "MazmanianS_DumitrescuDG_metadata_4.0.tsv"),
+                      sep = "\t")
 
 # Category: Study
-mao <- mao %>%
+dumitrescu <- dumitrescu %>%
     mutate(
-        sample_id = sample_id,
-        subject_id = subject_id,
-        curator = curator,
+        sample_id = sample_name,
+        subject_id = library_ID,
+        curator = "Kaelyn Long",
         target_condition = "Parkinson Disease",
         target_condition_ontology_term_id = "NCIT:C26845",
         study_name = study_name,
         control = case_when(
-            control == "Case" ~ "Case",
-            control == "Study control" ~ "Study Control"
+            donor_microbiome_type == "WildR" ~ "Case",
+            donor_microbiome_type == "SPF" ~ "Study Control"
         ),
         control_ontology_term_id = case_when(
             control == "Case" ~ "NCIT:C49152",
@@ -25,27 +25,19 @@ mao <- mao %>%
         ),
         body_site = "feces",
         body_site_ontology_term_id = "UBERON:0001988",
-        host_species = "Homo sapiens",
-        host_species_ontology_term_id = "NCBITaxon:9606"
+        host_species = "Mus musculus",
+        host_species_ontology_term_id = "NCBITaxon:10090"
     )
 
 # Category: Personal
-mao <- mao %>%
+dumitrescu <- dumitrescu %>%
     mutate(
-        age = age,
-        age_group = age_group,
-        age_group_ontology_term_id = case_when(
-            age_group == "Adolescent" ~ "NCIT:C27954",
-            age_group == "Adult" ~ "NCIT:C49685",
-            age_group == "Children 2-11 Years Old" ~ "NCIT:C49683",
-            age_group == "Elderly" ~ "NCIT:C16268",
-            age_group == "Infant" ~ "NCIT:C27956"
-        ),
-        age_unit = case_when(
-            age_unit == "year" ~ "Year"
-        ),
+        age = age_weeks,
+        age_group = NA,
+        age_group_ontology_term_id = NA,
+        age_unit = "Week",
         age_unit_ontology_term_id = case_when(
-            age_unit == "Year" ~ "NCIT:C29848"
+            age_unit == "Week" ~ "NCIT:C29844"
         ),
         sex = sex,
         sex_ontology_term_id = case_when(
@@ -55,20 +47,14 @@ mao <- mao %>%
     )
 
 # Category: Disease
-mao <- mao %>%
+dumitrescu <- dumitrescu %>%
     mutate(
-        disease = case_when(
-            disease == "Parkinson disease" ~ "Parkinson Disease",
-            is.na(disease) ~ "Healthy"
-        ),
-        disease_ontology_term_id = case_when(
-            disease == "Parkinson Disease" ~ "NCIT:C26845",
-            disease == "Healthy" ~ "NCIT:C115935"
-        )
+        disease = NA,
+        disease_ontology_term_id = NA
     )
 
 # Select and save curated columns
-curated_mao <- mao %>%
+curated_dumitrescu <- dumitrescu %>%
     mutate(curation_id = paste(study_name, subject_id, sep = ":")) %>%
     select(
         curation_id,
@@ -95,4 +81,4 @@ curated_mao <- mao %>%
         curator
     )
 
-write.csv(curated_mao, file = file.path(outdir, "MaoL_2021_curated_metadata.csv"), row.names = FALSE)
+write.csv(curated_dumitrescu, file = file.path(outdir, "MazmanianS_DumitrescuDG_curated_metadata.csv"), row.names = FALSE)

@@ -11,6 +11,10 @@ decastro3 <- read.csv(file.path(filedir, "MazmanianS_DeCastroFonsecaM_metadata_p
                       sep = "\t")
 decastro4 <- read.csv(file.path(filedir, "MazmanianS_DeCastroFonsecaM_metadata_project4.tsv"),
                       sep = "\t")
+decastro5a <- read.csv(file.path(filedir, "MazmanianS_DeCastroFonsecaM_5a.tsv"),
+                       sep = "\t")
+decastro5b <- read.csv(file.path(filedir, "MazmanianS_DeCastroFonsecaM_5b.tsv"),
+                       sep = "\t")
 
 # Category: Study
 decastro1 <- decastro1 %>%
@@ -101,6 +105,44 @@ decastro4 <- decastro4 %>%
         host_species_ontology_term_id = "NCBITaxon:10090"
     )
 
+decastro5a <- decastro5a %>%
+    mutate(
+        sample_id = library.name,
+        subject_id = LibraryID,
+        curator = "Kaelyn Long",
+        target_condition = "Parkinson Disease",
+        target_condition_ontology_term_id = "NCIT:C26845",
+        study_name = "MazmanianS_DeCastroFonsecaM_5",
+        control = case_when(
+            startsWith(library.name, "ASO") ~ "Case",
+            startsWith(library.name, "WT") ~ "Study Control"
+        ),
+        control_ontology_term_id = case_when(
+            control == "Case" ~ "NCIT:C49152",
+            control == "Study Control" ~ "NCIT:C142703"
+        ),
+        body_site = "feces",
+        body_site_ontology_term_id = "UBERON:0001988",
+        host_species = "Mus musculus",
+        host_species_ontology_term_id = "NCBITaxon:10090"
+    )
+
+decastro5b <- decastro5b %>%
+    mutate(
+        sample_id = Sample_ID,
+        subject_id = TGen_Subject_Name,
+        curator = "Kaelyn Long",
+        target_condition = "Parkinson Disease",
+        target_condition_ontology_term_id = "NCIT:C26845",
+        study_name = "MazmanianS_DeCastroFonsecaM_5",
+        control = NA,
+        control_ontology_term_id = NA,
+        body_site = "feces",
+        body_site_ontology_term_id = "UBERON:0001988",
+        host_species = "Mus musculus",
+        host_species_ontology_term_id = "NCBITaxon:10090"
+    )
+
 # Category: Personal
 decastro1 <- decastro1 %>%
     mutate(
@@ -154,6 +196,28 @@ decastro4 <- decastro4 %>%
         sex_ontology_term_id = NA
     )
 
+decastro5a <- decastro5a %>%
+    mutate(
+        age = NA,
+        age_group = NA,
+        age_group_ontology_term_id = NA,
+        age_unit = NA,
+        age_unit_ontology_term_id = NA,
+        sex = NA,
+        sex_ontology_term_id = NA
+    )
+
+decastro5b <- decastro5b %>%
+    mutate(
+        age = NA,
+        age_group = NA,
+        age_group_ontology_term_id = NA,
+        age_unit = NA,
+        age_unit_ontology_term_id = NA,
+        sex = NA,
+        sex_ontology_term_id = NA
+    )
+
 # Category: Disease
 decastro1 <- decastro1 %>%
     mutate(
@@ -174,6 +238,18 @@ decastro3 <- decastro3 %>%
     )
 
 decastro4 <- decastro4 %>%
+    mutate(
+        disease = NA,
+        disease_ontology_term_id = NA
+    )
+
+decastro5a <- decastro5a %>%
+    mutate(
+        disease = NA,
+        disease_ontology_term_id = NA
+    )
+
+decastro5b <- decastro5b %>%
     mutate(
         disease = NA,
         disease_ontology_term_id = NA
@@ -288,7 +364,62 @@ curated_decastro4 <- decastro4 %>%
         curator
     )
 
+curated_decastro5a <- decastro5a %>%
+    mutate(curation_id = paste(study_name, subject_id, sep = ":")) %>%
+    select(
+        curation_id,
+        study_name,
+        sample_id,
+        subject_id,
+        target_condition,
+        target_condition_ontology_term_id,
+        body_site,
+        body_site_ontology_term_id,
+        host_species,
+        host_species_ontology_term_id,
+        control,
+        control_ontology_term_id,
+        age,
+        age_group,
+        age_group_ontology_term_id,
+        age_unit,
+        age_unit_ontology_term_id,
+        sex,
+        sex_ontology_term_id,
+        disease,
+        disease_ontology_term_id,
+        curator
+    )
+
+curated_decastro5b <- decastro5b %>%
+    mutate(curation_id = paste(study_name, subject_id, sep = ":")) %>%
+    select(
+        curation_id,
+        study_name,
+        sample_id,
+        subject_id,
+        target_condition,
+        target_condition_ontology_term_id,
+        body_site,
+        body_site_ontology_term_id,
+        host_species,
+        host_species_ontology_term_id,
+        control,
+        control_ontology_term_id,
+        age,
+        age_group,
+        age_group_ontology_term_id,
+        age_unit,
+        age_unit_ontology_term_id,
+        sex,
+        sex_ontology_term_id,
+        disease,
+        disease_ontology_term_id,
+        curator
+    )
+
 curated_decastro <- bind_rows(curated_decastro1, curated_decastro2,
-                              curated_decastro3, curated_decastro4)
+                              curated_decastro3, curated_decastro4,
+                              curated_decastro5a, curated_decastro5b)
 
 write.csv(curated_decastro, file = file.path(outdir, "MazmanianS_DeCastroFonsecaM_curated_metadata.csv"), row.names = FALSE)

@@ -4,7 +4,7 @@ library(readr)
 library(readxl)
 
 # file structure
-curation_dir <- "/home/kaelyn/Desktop/Work/ASAP_MAC/parkinsonsManualCuration"
+curation_dir <- "/home/kaelyn/Desktop/Work/parkinsonsManualCuration"
 curated_dir <- file.path(curation_dir, "curated_metadata")
 original_dir <- file.path(curation_dir, "original_metadata")
 map_dir <- "/home/kaelyn/Desktop/Work/ASAP_MAC/parkinsons_data_search/shotgun_samples/sample_uuid_maps"
@@ -15,7 +15,8 @@ temp <- list.files(path = curated_dir, pattern="\\.csv$")
 curated_meta <- lapply(file.path(curated_dir, temp), read.csv)
 names(curated_meta) <- c("bedarf", "boktor1", "boktor2", "duru", "jo", "lee",
                          "mao", "decastro", "dumitrescu", "moiseyenko",
-                         "schonhoff", "nishiwaki", "qian", "wallen", "zhang")
+                         "schonhoff", "nishiwaki", "qian", "sampson", "wallen",
+                         "zhang")
 #all_curated <- bind_rows(curated_meta)
 
 # UUID maps
@@ -51,6 +52,7 @@ all_metas <- list("bedarf" = NULL,
                   "schonhoff" = NULL,
                   "nishiwaki" = NULL,
                   "qian" = NULL,
+                  "sampson" = NULL,
                   "wallen" = NULL,
                   "zhang" = NULL)
 
@@ -66,6 +68,7 @@ final_metas <- list("bedarf" = NULL,
                     "schonhoff" = NULL,
                     "nishiwaki" = NULL,
                     "qian" = NULL,
+                    "sampson" = NULL,
                     "wallen" = NULL,
                     "zhang" = NULL)
 
@@ -372,6 +375,18 @@ final_metas$zhang <- uuid_maps$zhang %>%
               by = join_by(BioSample),
               suffix = c("", ""),
               keep = TRUE)
+
+# sampson
+sampson <- read.csv(file.path(original_dir, "SampsonTR_2025.tsv"),
+                    sep = "\t") %>%
+  rename_with( ~ paste0("uncurated_", .x)) %>%
+  rename(uuid = uncurated_uuid)
+all_metas$sampson <- curated_meta$sampson %>%
+  left_join(sampson,
+            by = join_by(sample_id == uncurated_Sample.Name),
+            suffix = c("", ""),
+            keep = TRUE)
+final_metas$sampson <- all_metas$sampson
 
 # merge
 final_metas <- lapply(final_metas, function(x) x %>%

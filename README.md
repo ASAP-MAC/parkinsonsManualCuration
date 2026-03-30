@@ -1,6 +1,7 @@
 # parkinsonsManualCuration
 
 This repository keeps track of the process of manually curating Parkinson's metadata.
+The resulting metadata and accompanying assay data can be accessed with [parkinsonsMetagenomicData](https://github.com/ASAP-MAC/parkinsonsMetagenomicData).
 
 At the moment, we are prioritizing the curation of the following metadata features: Case/Control Status (for Parkinson's Disease), Age, and Sex.
 Curation is carried out following the data dictionary, merging schema, and ontology maps outlined in [OmicsMLRepoData](https://github.com/waldronlab/OmicsMLRepoData) (OmicsMLRepoData contains the latest version of [curatedMetagenomicData](https://github.com/waldronlab/curatedMetagenomicData) curation) where possible.

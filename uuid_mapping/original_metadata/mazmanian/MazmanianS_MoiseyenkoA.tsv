@@ -1,0 +1,49 @@
+sample_id	subject_id	control	country	body_site	body_site_details	age	age_group	age_unit	ancestry	ancestry_details	antibiotics_current_use	biomarker	bmi	days_from_first_collection	dietary_restriction	disease	disease_details	disease_response_orr	disease_response_pfs	disease_response_pfs_month	disease_response_recist	dna_extraction_kit	family	family_role	feces_phenotype	fmt_id	fmt_role	hla	lifestyle	location	median_read_length	minimum_read_length	ncbi_accession	neonatal_birth_weight	neonatal_delivery_procedure	neonatal_feeding_method	neonatal_gestational_age	neonatal_preterm_birth	number_bases	number_reads	obgyn_birth_control	obgyn_lactating	obgyn_menopause	obgyn_pregnancy	pmid	probing_pocket_depth	sequencing_platform	sex	smoker	subcohort	treatment	tumor_staging_ajcc	tumor_staging_tnm	westernized	zigosity	uncurated_metadata	housing_cage	cohort
+1W-F	2272					18		weeks								WT						Qiagen PowerFecal Pro																										Male		Fp7-1	Vehicle						1	Fp7
+2W-F	2273					18		weeks								WT						Qiagen PowerFecal Pro																										Male		Fp7-1	Vehicle						1	Fp7
+3W-F	2302					18		weeks								WT						Qiagen PowerFecal Pro																										Male		Fp7-1	Vehicle						2	Fp7
+4W-F	2304					18		weeks								WT						Qiagen PowerFecal Pro																										Male		Fp7-1	Vehicle						3	Fp7
+5W-F	2306					18		weeks								WT						Qiagen PowerFecal Pro																										Male		Fp7-1	Vehicle						3	Fp7
+6W-F	2303					18		weeks								WT						Qiagen PowerFecal Pro																										Male		Fp7-1	Vehicle						2	Fp7
+7W-F	2311					18		weeks								WT						Qiagen PowerFecal Pro																										Male		Fp7-2	Vehicle						14	Fp7
+8W-F	2314					18		weeks								WT						Qiagen PowerFecal Pro																										Male		Fp7-2	Vehicle						14	Fp7
+1C-F	2267					18		weeks								ASO						Qiagen PowerFecal Pro																										Male		Fp7-1	Vehicle						4	Fp7
+2C-F	2268					18		weeks								ASO						Qiagen PowerFecal Pro																										Male		Fp7-1	Vehicle						4	Fp7
+3C-F	2289					18		weeks								ASO						Qiagen PowerFecal Pro																										Male		Fp7-1	Vehicle						5	Fp7
+4C-F	2290					18		weeks								ASO						Qiagen PowerFecal Pro																										Male		Fp7-1	Vehicle						5	Fp7
+5C-F	2298					18		weeks								ASO						Qiagen PowerFecal Pro																										Male		Fp7-1	Vehicle						6	Fp7
+6C-F	2297					18		weeks								ASO						Qiagen PowerFecal Pro																										Male		Fp7-1	Vehicle						6	Fp7
+7C-F	2307					18		weeks								ASO						Qiagen PowerFecal Pro																										Male		Fp7-1	Vehicle						7	Fp7
+8C-F	2308					18		weeks								ASO						Qiagen PowerFecal Pro																										Male		Fp7-1	Vehicle						7	Fp7
+1F-F	2276					18		weeks								ASO						Qiagen PowerFecal Pro																										Male		Fp7-1	Fp						9	Fp7
+2F-F	2277					18		weeks								ASO						Qiagen PowerFecal Pro																										Male		Fp7-1	Fp						9	Fp7
+3F-F	2280					18		weeks								ASO						Qiagen PowerFecal Pro																										Male		Fp7-1	Fp						10	Fp7
+4F-F	2281					18		weeks								ASO						Qiagen PowerFecal Pro																										Male		Fp7-1	Fp						10	Fp7
+5F-F	2285					18		weeks								ASO						Qiagen PowerFecal Pro																										Male		Fp7-1	Fp						11	Fp7
+6F-F	2284					18		weeks								ASO						Qiagen PowerFecal Pro																										Male		Fp7-1	Fp						11	Fp7
+7F-F	2312					18		weeks								ASO						Qiagen PowerFecal Pro																										Male		Fp7-1	Fp						12	Fp7
+8F-F	2313					18		weeks								ASO						Qiagen PowerFecal Pro																										Male		Fp7-1	Fp						13	Fp7
+1W-B	2328					18		weeks								WT						Qiagen PowerFecal Pro																										Male		bCL-1	Vehicle						15	bCL
+2W-B	2330					18		weeks								WT						Qiagen PowerFecal Pro																										Male		bCL-1	Vehicle						15	bCL
+3W-B	2332					18		weeks								WT						Qiagen PowerFecal Pro																										Male		bCL-1	Vehicle						16	bCL
+4W-B	2337					18		weeks								WT						Qiagen PowerFecal Pro																										Male		bCL-1	Vehicle						16	bCL
+5W-B	2338					18		weeks								WT						Qiagen PowerFecal Pro																										Male		bCL-1	Vehicle						16	bCL
+6W-B	2348					18		weeks								WT						Qiagen PowerFecal Pro																										Male		bCL-1	Vehicle						17	bCL
+7W-B	2349					18		weeks								WT						Qiagen PowerFecal Pro																										Male		bCL-1	Vehicle						17	bCL
+8W-B	NA					18		weeks								WT						Qiagen PowerFecal Pro																										Male		bCL-2	Vehicle							bCL
+1C-B	2350					18		weeks								ASO						Qiagen PowerFecal Pro																										Male		bCL-1	Vehicle						18	bCL
+2C-B	2333					18		weeks								ASO						Qiagen PowerFecal Pro																										Male		bCL-1	Vehicle						19	bCL
+3C-B	2334					18		weeks								ASO						Qiagen PowerFecal Pro																										Male		bCL-1	Vehicle						19	bCL
+4C-B	2336					18		weeks								ASO						Qiagen PowerFecal Pro																										Male		bCL-1	Vehicle						19	bCL
+5C-B	2351					18		weeks								ASO						Qiagen PowerFecal Pro																										Male		bCL-1	Vehicle						18	bCL
+6C-B	2335					18		weeks								ASO						Qiagen PowerFecal Pro																										Male		bCL-1	Vehicle						19	bCL
+7C-B	NA					18		weeks								ASO						Qiagen PowerFecal Pro																										Male		bCL-2	Vehicle							bCL
+8C-B	NA					18		weeks								ASO						Qiagen PowerFecal Pro																										Male		bCL-2	Vehicle							bCL
+1B-B	2345					18		weeks								ASO						Qiagen PowerFecal Pro																										Male		bCL-1	benCom						20	bCL
+2B-B	2329					18		weeks								ASO						Qiagen PowerFecal Pro																										Male		bCL-1	benCom						21	bCL
+3B-B	2327					18		weeks								ASO						Qiagen PowerFecal Pro																										Male		bCL-1	benCom						21	bCL
+4B-B	2331					18		weeks								ASO						Qiagen PowerFecal Pro																										Male		bCL-1	benCom						21	bCL
+5B-B	2339					18		weeks								ASO						Qiagen PowerFecal Pro																										Male		bCL-1	benCom						22	bCL
+6B-B	2341					18		weeks								ASO						Qiagen PowerFecal Pro																										Male		bCL-1	benCom						22	bCL
+7B-B	2346					18		weeks								ASO						Qiagen PowerFecal Pro																										Male		bCL-1	benCom						20	bCL
+8B-B	2347					18		weeks								ASO						Qiagen PowerFecal Pro																										Male		bCL-1	benCom						20	bCL

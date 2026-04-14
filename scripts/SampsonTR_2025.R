@@ -59,4 +59,4 @@ curated_sampson <- sampson %>%
     curator
   )
 
-write.csv(curated_sampson, file = file.path(outdir, "SampsonJR_2017_curated_metadata.csv"), row.names = FALSE)
+write.csv(curated_sampson, file = file.path(outdir, "SampsonTR_2025_curated_metadata.csv"), row.names = FALSE)

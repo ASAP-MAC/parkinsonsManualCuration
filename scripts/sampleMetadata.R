@@ -13,10 +13,10 @@ accession_dir <- "/home/kaelyn/Desktop/Work/ASAP_MAC/pipeline/data/ParkinsonAcce
 # curated metadata
 temp <- list.files(path = curated_dir, pattern="\\.csv$")
 curated_meta <- lapply(file.path(curated_dir, temp), read.csv)
-names(curated_meta) <- c("bedarf", "boktor1", "boktor2", "duru", "jo", "lee",
-                         "mao", "decastro", "dumitrescu", "moiseyenko",
-                         "schonhoff", "nishiwaki", "qian", "sampson", "wallen",
-                         "zhang")
+names(curated_meta) <- c("asnicar", "bedarf", "boktor1", "boktor2", "duru",
+                         "jo", "lee", "mao", "decastro", "dumitrescu",
+                         "moiseyenko", "schonhoff", "nishiwaki", "qian",
+                         "sampson", "wallen", "zhang")
 #all_curated <- bind_rows(curated_meta)
 
 # UUID maps
@@ -40,7 +40,8 @@ names(accession_lists) <- c("bedarf", "boktor1", "boktor2", "duru", "jo", "lee",
 #all_accessions <- bind_rows(accession_lists)
 
 # combine curated with original metadata
-all_metas <- list("bedarf" = NULL,
+all_metas <- list("asnicar" = NULL,
+                  "bedarf" = NULL,
                   "boktor" = NULL,
                   "duru" = NULL,
                   "jo" = NULL,
@@ -56,13 +57,18 @@ all_metas <- list("bedarf" = NULL,
                   "wallen" = NULL,
                   "zhang" = NULL)
 
-final_metas <- list("bedarf" = NULL,
+final_metas <- list("asnicar" = NULL,
+                    "bedarf" = NULL,
                     "boktor" = NULL,
                     "duru" = NULL,
                     "jo" = NULL,
                     "lee" = NULL,
                     "mao" = NULL,
-                    "decastro" = NULL,
+                    "decastro1" = NULL,
+                    "decastro2" = NULL,
+                    "decastro3" = NULL,
+                    "decastro4" = NULL,
+                    "decastro5" = NULL,
                     "dumitrescu" = NULL,
                     "moiseyenko" = NULL,
                     "schonhoff" = NULL,
@@ -257,7 +263,12 @@ all_metas$decastro <- curated_meta$decastro %>%
               suffix = c("", ""),
               keep = TRUE) %>%
     select(-temp_sample_name)
-final_metas$decastro <- all_metas$decastro
+split_decastro <- split(all_metas$decastro, all_metas$decastro$study_name)
+final_metas$decastro1 <- split_decastro$MazmanianS_DeCastroFonsecaM_1
+final_metas$decastro2 <- split_decastro$MazmanianS_DeCastroFonsecaM_2
+final_metas$decastro3 <- split_decastro$MazmanianS_DeCastroFonsecaM_3
+final_metas$decastro4 <- split_decastro$MazmanianS_DeCastroFonsecaM_4
+final_metas$decastro5 <- split_decastro$MazmanianS_DeCastroFonsecaM_5
 
 # dumitrescu
 dumitrescu <- read.csv(file.path(original_dir, "MazmanianS_DumitrescuDG_metadata_4.0.tsv"),
@@ -356,6 +367,10 @@ final_metas$wallen <- uuid_maps$wallen %>%
               suffix = c("", ""),
               keep = TRUE)
 
+extra_id <- which(final_metas$wallen$NCBI_accession == "SRR19064765")
+final_metas$wallen$study_name[extra_id] <- "WallenZD_2022"
+final_metas$wallen$BioSample[extra_id] <- "SAMN28062121"
+
 # zhang
 zhang <- read.csv(file.path(original_dir, "ZhangM_2023.csv")) %>%
     rename_with( ~ paste0("uncurated_", .x))
@@ -388,10 +403,34 @@ all_metas$sampson <- curated_meta$sampson %>%
             keep = TRUE)
 final_metas$sampson <- all_metas$sampson
 
-# merge
+# asnicar
+asnicar <- read.csv(file.path(original_dir, "AsnicarF_2021.tsv"),
+                    sep = "\t") %>%
+  rename_with( ~ paste0("uncurated_", .x)) %>%
+  rename(uuid = uncurated_uuid)
+all_metas$asnicar <- curated_meta$asnicar %>%
+  left_join(asnicar,
+            by = join_by(sample_id == uncurated_sample_id),
+            suffix = c("", ""),
+            keep = TRUE)
+final_metas$asnicar <- all_metas$asnicar
+
+
 final_metas <- lapply(final_metas, function(x) x %>%
                           mutate(across(-any_of(curated_cols), as.character)))
-sampleMetadata <- bind_rows(final_metas)
+
+# create labeled version
+labeled_metas <- lapply(names(final_metas), function(x) {
+  cur_study <- final_metas[[x]]
+  rename_with(cur_study,
+              ~ paste0(unique(cur_study$study_name), "_", .x),
+              starts_with("uncurated"))
+})
+names(labeled_metas) <- names(final_metas)
+
+# merge
+sampleMetadata <- bind_rows(labeled_metas)
 save(sampleMetadata, file = "../sampleMetadata.rda")
+
 #write.csv(merged_metadata, file = "/home/kaelyn/Desktop/Work/ASAP_MAC/parkinsonsMetagenomicData/shotgun_samples/merged_metadata.csv", row.names = FALSE)
 

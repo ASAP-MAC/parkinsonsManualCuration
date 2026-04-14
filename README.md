@@ -8,4 +8,4 @@ Curation is carried out following the data dictionary, merging schema, and ontol
 
 Original metadata files are stored in `original_metadata/`, and each dataset is curated in its respectively named R script, stored in `scripts/`.
 Also within `scripts/`, `harmonization.R` loads all of the original metadata for visualization.
-Harmonized metadata will be output to `curated_metadata/`.
+Harmonized metadata will be output to `curated_metadata/`. Finally, `uuid_mapping/` contains a script describing how UUIDs are assigned to each sample, and the tables that map these generated UUIDs to the rest of the metadata. We also include the tables used to input these samples to the [curatedMetagenomicsNextflow pipeline](https://github.com/seandavi/curatedMetagenomicsNextflow).

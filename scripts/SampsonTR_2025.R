@@ -38,25 +38,26 @@ sampson <- sampson %>%
   )
 
 # Select and save curated columns
+curated_cols <- c(
+    "study_name",
+    "sample_id",
+    "subject_id",
+    "target_condition",
+    "target_condition_ontology_term_id",
+    "host_species",
+    "host_species_ontology_term_id",
+    "control",
+    "control_ontology_term_id",
+    "age",
+    "age_unit",
+    "age_unit_ontology_term_id",
+    "sex",
+    "sex_ontology_term_id",
+    "curator"
+)
+
 curated_sampson <- sampson %>%
-  mutate(curation_id = paste(study_name, subject_id, sep = ":")) %>%
-  select(
-    curation_id,
-    study_name,
-    sample_id,
-    subject_id,
-    target_condition,
-    target_condition_ontology_term_id,
-    host_species,
-    host_species_ontology_term_id,
-    control,
-    control_ontology_term_id,
-    age,
-    age_unit,
-    age_unit_ontology_term_id,
-    sex,
-    sex_ontology_term_id,
-    curator
-  )
+  rename_with(~ paste0("uncurated_", .x), !any_of(curated_cols)) %>%
+    select(all_of(curated_cols), starts_with("uncurated_"))
 
 write.csv(curated_sampson, file = file.path(outdir, "SampsonTR_2025_curated_metadata.csv"), row.names = FALSE)

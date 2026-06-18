@@ -256,170 +256,60 @@ decastro5b <- decastro5b %>%
     )
 
 # Select and save curated columns
+
+
+
+
+curated_cols <- c(
+    "study_name",
+    "sample_id",
+    "subject_id",
+    "target_condition",
+    "target_condition_ontology_term_id",
+    "body_site",
+    "body_site_ontology_term_id",
+    "host_species",
+    "host_species_ontology_term_id",
+    "control",
+    "control_ontology_term_id",
+    "age",
+    "age_group",
+    "age_group_ontology_term_id",
+    "age_unit",
+    "age_unit_ontology_term_id",
+    "sex",
+    "sex_ontology_term_id",
+    "disease",
+    "disease_ontology_term_id",
+    "curator"
+)
+
 curated_decastro1 <- decastro1 %>%
-    mutate(curation_id = paste(study_name, subject_id, sep = ":")) %>%
-    select(
-        curation_id,
-        study_name,
-        sample_id,
-        subject_id,
-        target_condition,
-        target_condition_ontology_term_id,
-        body_site,
-        body_site_ontology_term_id,
-        host_species,
-        host_species_ontology_term_id,
-        control,
-        control_ontology_term_id,
-        age,
-        age_group,
-        age_group_ontology_term_id,
-        age_unit,
-        age_unit_ontology_term_id,
-        sex,
-        sex_ontology_term_id,
-        disease,
-        disease_ontology_term_id,
-        curator
-    )
+    rename_with(~ paste0("uncurated_", .x), !any_of(curated_cols)) %>%
+    select(all_of(curated_cols), starts_with("uncurated_"))
 
 curated_decastro2 <- decastro2 %>%
-    mutate(curation_id = paste(study_name, subject_id, sep = ":")) %>%
-    select(
-        curation_id,
-        study_name,
-        sample_id,
-        subject_id,
-        target_condition,
-        target_condition_ontology_term_id,
-        body_site,
-        body_site_ontology_term_id,
-        host_species,
-        host_species_ontology_term_id,
-        control,
-        control_ontology_term_id,
-        age,
-        age_group,
-        age_group_ontology_term_id,
-        age_unit,
-        age_unit_ontology_term_id,
-        sex,
-        sex_ontology_term_id,
-        disease,
-        disease_ontology_term_id,
-        curator
-    )
+    rename_with(~ paste0("uncurated_", .x), !any_of(curated_cols)) %>%
+    select(all_of(curated_cols), starts_with("uncurated_"))
 
 curated_decastro3 <- decastro3 %>%
-    mutate(curation_id = paste(study_name, subject_id, sep = ":")) %>%
-    select(
-        curation_id,
-        study_name,
-        sample_id,
-        subject_id,
-        target_condition,
-        target_condition_ontology_term_id,
-        body_site,
-        body_site_ontology_term_id,
-        host_species,
-        host_species_ontology_term_id,
-        control,
-        control_ontology_term_id,
-        age,
-        age_group,
-        age_group_ontology_term_id,
-        age_unit,
-        age_unit_ontology_term_id,
-        sex,
-        sex_ontology_term_id,
-        disease,
-        disease_ontology_term_id,
-        curator
-    )
+    rename_with(~ paste0("uncurated_", .x), !any_of(curated_cols)) %>%
+    select(all_of(curated_cols), starts_with("uncurated_"))
 
 curated_decastro4 <- decastro4 %>%
-    mutate(curation_id = paste(study_name, subject_id, sep = ":")) %>%
-    select(
-        curation_id,
-        study_name,
-        sample_id,
-        subject_id,
-        target_condition,
-        target_condition_ontology_term_id,
-        body_site,
-        body_site_ontology_term_id,
-        host_species,
-        host_species_ontology_term_id,
-        control,
-        control_ontology_term_id,
-        age,
-        age_group,
-        age_group_ontology_term_id,
-        age_unit,
-        age_unit_ontology_term_id,
-        sex,
-        sex_ontology_term_id,
-        disease,
-        disease_ontology_term_id,
-        curator
-    )
+    rename_with(~ paste0("uncurated_", .x), !any_of(curated_cols)) %>%
+    select(all_of(curated_cols), starts_with("uncurated_"))
 
 curated_decastro5a <- decastro5a %>%
-    mutate(curation_id = paste(study_name, subject_id, sep = ":")) %>%
-    select(
-        curation_id,
-        study_name,
-        sample_id,
-        subject_id,
-        target_condition,
-        target_condition_ontology_term_id,
-        body_site,
-        body_site_ontology_term_id,
-        host_species,
-        host_species_ontology_term_id,
-        control,
-        control_ontology_term_id,
-        age,
-        age_group,
-        age_group_ontology_term_id,
-        age_unit,
-        age_unit_ontology_term_id,
-        sex,
-        sex_ontology_term_id,
-        disease,
-        disease_ontology_term_id,
-        curator
-    )
+    rename_with(~ paste0("uncurated_", .x), !any_of(curated_cols)) %>%
+    select(all_of(curated_cols), starts_with("uncurated_"))
 
 curated_decastro5b <- decastro5b %>%
-    mutate(curation_id = paste(study_name, subject_id, sep = ":")) %>%
-    select(
-        curation_id,
-        study_name,
-        sample_id,
-        subject_id,
-        target_condition,
-        target_condition_ontology_term_id,
-        body_site,
-        body_site_ontology_term_id,
-        host_species,
-        host_species_ontology_term_id,
-        control,
-        control_ontology_term_id,
-        age,
-        age_group,
-        age_group_ontology_term_id,
-        age_unit,
-        age_unit_ontology_term_id,
-        sex,
-        sex_ontology_term_id,
-        disease,
-        disease_ontology_term_id,
-        curator
-    )
+    rename_with(~ paste0("uncurated_", .x), !any_of(curated_cols)) %>%
+    select(all_of(curated_cols), starts_with("uncurated_"))
 
-curated_decastro <- bind_rows(curated_decastro1, curated_decastro2,
-                              curated_decastro3, curated_decastro4,
-                              curated_decastro5a, curated_decastro5b)
+
+
+curated_decastro <- bind_rows(lapply(list(curated_decastro1, curated_decastro2, curated_decastro3, curated_decastro4, curated_decastro5a, curated_decastro5b), function(df) mutate(df, across(everything(), as.character))))
 
 write.csv(curated_decastro, file = file.path(outdir, "MazmanianS_DeCastroFonsecaM_curated_metadata.csv"), row.names = FALSE)

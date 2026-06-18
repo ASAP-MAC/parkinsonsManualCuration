@@ -41,24 +41,25 @@ jo <- jo %>%
     )
 
 # Select and save curated columns
+curated_cols <- c(
+    "study_name",
+    "sample_id",
+    "subject_id",
+    "target_condition",
+    "target_condition_ontology_term_id",
+    "body_site",
+    "body_site_ontology_term_id",
+    "host_species",
+    "host_species_ontology_term_id",
+    "control",
+    "control_ontology_term_id",
+    "disease",
+    "disease_ontology_term_id",
+    "curator"
+)
+
 curated_jo <- jo %>%
-    mutate(curation_id = paste(study_name, subject_id, sep = ":")) %>%
-    select(
-        curation_id,
-        study_name,
-        sample_id,
-        subject_id,
-        target_condition,
-        target_condition_ontology_term_id,
-        body_site,
-        body_site_ontology_term_id,
-        host_species,
-        host_species_ontology_term_id,
-        control,
-        control_ontology_term_id,
-        disease,
-        disease_ontology_term_id,
-        curator
-    )
+    rename_with(~ paste0("uncurated_", .x), !any_of(curated_cols)) %>%
+    select(all_of(curated_cols), starts_with("uncurated_"))
 
 write.csv(curated_jo, file = file.path(outdir, "JoS_2022_curated_metadata.csv"), row.names = FALSE)
